@@ -1,0 +1,612 @@
+{
+    "luzon": {
+        "pulag": { 
+            "img-main-hd": "./img/luzon/pulag.jpg",
+            "title": "Mount Pulag",
+            "location": "Borders Benguet, Ifugao, and Nueva Vizcaya provinces, with major jump-offs in Kabayan, Benguet",
+            "explore": {
+                "Ambangeg Trail:": "Easiest, perfect for beginners, takes 4-5 hours.",
+                "Akiki Trail:": "Challenging, steeper route for experienced hikers.",
+                "Tawangan Trail:": "Known as the \"raw\" trail, often considered challenging."
+            },
+            "recommended": "Summer (dry season) offers the best chance for sea of clouds without rain.",
+            "requirement": "A Medical Certificate indicating \"fit to hike\" is mandatory, along with DENR registration.",
+            "description": [
+                "Mount Pulag is Luzon's highest peak at 2,928 metres (9,606 ft) above sea level, third-highest mountain in the Philippines, and the 26th-highest peak of an island on Earth.",
+                "It is second-most prominent mountain in the Philippines. Located on the triple border of the provinces of Benguet, Ifugao, and Nueva Vizcaya, the borders meet at the mountain's peak. Mount Pulag is third highest next to Mount Apo and Mount Dulang-dulang.",
+                "Mount Pulag is famous for its \"sea of clouds\" and its exceptional view of the Milky Way Galaxy at dawn, which has attracted many tourists who wish to see the other-worldly scenery."
+            ],
+            "img-sets": [
+                "./img/luzon/pulagimg/pulag1.jpg",
+                "./img/luzon/pulagimg/pulag2.jpg",
+                "./img/luzon/pulagimg/pulag3.jpg",
+                "./img/luzon/pulagimg/pulag4.jpg"
+            ]
+        },
+        
+        "hundred": {
+            "img-main-hd": "./img/luzon/hundred.jpg",
+            "title": "Hundred Islands",
+            "location": "Lucap Wharf, Alaminos City, Pangasinan",
+            "explore": {
+                "Bus:": " Take a direct bus in Cubao or Pasay directly to Alaminos City.",
+                "Tricycle:": "From the Alaminos terminal, take a tricycle to Lucap Wharf",
+                "Boat:": " Register at the Lucap Tourism Office and hire a boat for island hopping."
+            },
+            "recommended": "Dry season (November to May) to maximize island hopping and water activities.",
+            "requirement": "Need a valid ID, to register at the Pangasinan TARANA portal (if required), and to register at the Lucap Wharf Tourism Office upon arrival to pay environmental and entrance fees",
+            "description": [
+                "The Hundred Islands National Park is the first Philippine national park and a protected area located in Alaminos, Pangasinan. The islands, totaling 124 at low tide and 123 at high tide, are scattered in Lingayen Gulf covering an area of 16.76 square kilometres (6.47 sq mi). Only four of them had been developed for tourism: Quezon Island (the most developed), Governor Island Children's Island, and Pilgrimage Island.",
+                "The islands are of karst or limestone landscape. The islands are believed to be about two million years old. Ancient coral formations can be found extending well inland, in areas that were once part of the seabed of a prehistoric sea. A drop in sea level over time exposed these corals at the surface."
+            ],
+            "img-sets": [
+                "./img/luzon/hundredimg/hundred1.jpg",
+                "./img/luzon/hundredimg/hundred2.jpg",
+                "./img/luzon/hundredimg/hundred3.jpg",
+                "./img/luzon/hundredimg/hundred4.jpg"
+            ]
+        },
+
+        "coron": {
+            "img-main-hd": "./img/luzon/coron.jpg",
+            "title": "Coron",
+            "location": "Coast of neighboring Busuanga Island in Northern Palawan",
+            "explore": {
+                "Airport:": "Flight from Manila to Francisco B. Reyes Airport (USU) in Busuanga",
+                "Cargo ship": "2Go Travel operates overnight ferries from Manila to Coron"
+            },
+            "recommended": "Dry Season (March–May) and Cool Dry Season (December–February) for comfortable temperature",
+            "requirement": "Requires proof of full vaccination (or vaccination card/VaxCert) and a confirmed booking at a DOT-accredited accommodation",
+            "description": [
+                "Coron, officially the Municipality of Coron, is a municipality in the province of Palawan, Philippines. According to the 2024 census, it has a population of 69,439 people",
+                "It is home to the Coron Island Natural Biotic Area, which is listed in the natural category of the UNESCO World Heritage Tentative List",
+                "Currently tourism is the top industry in Coron due to local beaches, dive sites, Lagoons and other natural tourist spots. A dozen sunken Japanese warships at depths between 10 and 40 meters (33 and 131 ft) off Coron Island is a diving destination, listed in Forbes Traveler Magazine’s top 10 best scuba diving sites in the world.[citation needed] A description of the diving highlights in 2021 is provided by Dive the World."
+            ],
+            "img-sets": [
+                "./img/luzon/coronimg/coron1.jpg",
+                "./img/luzon/coronimg/coron2.png",
+                "./img/luzon/coronimg/coron3.jpg",
+                "./img/luzon/coronimg/coron4.jpg"
+            ]
+        },
+
+        "mayonluzon": {
+            "img-main-hd": "./img/luzon/mayon.jpg",
+            "title": "Mount Mayon",
+            "location": "Covers parts of Legazpi City, Ligao City, and the municipalities of Camalig, Daraga, Guinobatan, Malilipot, Santo Domingo, and Tabaco in Albay",
+            "explore": {
+                "Bus:": "Buses from terminals like PITX or Cubao to Legazpi take 10–13 hours.",
+                "Airport": "Flights from Manila to Bicol International Airport (DRP)..",
+                "Local guides": "Take a jeepney bound for Camalig from Legazpi and ask to be dropped off for a scenic view of the volcano, often suggested by local guides."
+            },
+            "recommended": "Dry season from March to May.",
+            "requirement": "Tourists are not allowed to enter PDZ without a licensed guide.",
+            "description": [
+                "Mayon, also known as Mount Mayon and Mayon Volcano, is an active stratovolcano in the province of Albay in Bicol, Philippines. A popular tourist destination, it is renowned for its \"perfect cone\" owing to its symmetric conical shape, and is regarded as sacred in Philippine mythology.",
+                "The volcano with its surrounding landscape was declared a national park on July 20, 1938, the first in the nation. It was reclassified as a natural park and renamed the Mayon Volcano Natural Park in 2000. It is the centerpiece of the Albay Biosphere Reserve as declared by UNESCO in 2016, and is currently being nominated as a World Heritage Site."
+            ],
+            "img-sets": [
+                "./img/luzon/mayonimg/mayon1.jpg",
+                "./img/luzon/mayonimg/mayon2.jpg",
+                "./img/luzon/mayonimg/mayon3.jpg",
+                "./img/luzon/mayonimg/mayon4.jpg"
+            ]
+        },
+
+        "pinatubo": {
+            "img-main-hd": "./img/luzon/pinatubo.jpg",
+            "title": "Mount Pinatubo",
+            "location": "Tripoint boundary of Zambales, Tarlac, and Pampanga provinces",
+            "explore": {
+                "Capas Trail:": "The standard route starting from Barangay Sta. Juliana",
+                "Shortened Trek": "During summer, 4x4s can drive further up the riverbed, reducing the walk to a short 30-minute hike each way",
+                "Camping": "Take a jeepney bound for Camalig from Legazpi and ask to be dropped off for a scenic view of the volcano, often suggested by local guides."
+            },
+            "recommended": "During the dry season from December to May, with January to March being ideal for cooler weather and clearer views of the blue-green crater lake.",
+            "requirement": "Booking an accredited tour (PHP 1,000+ deposit usually required), valid identification (2 original IDs/passports), and physical fitness for a ~7km hike.",
+            "description": [
+                "Mount Pinatubo is an active stratovolcano in the Zambales Mountains in Luzon in the Philippines. Located on the tripoint of Zambales, Tarlac and Pampanga provinces, most people were unaware of its eruptive history before the pre-eruption volcanic activity in early 1991. Dense forests, which supported a population of several thousand indigenous Aetas, heavily eroded and obscured Pinatubo.",
+                "Long before Mount Pinatubo became famous for its cataclysmic eruption, Philippine president Ramon Magsaysay, a native of Zambales, named his C-47 presidential plane Mt. Pinatubo. The plane crashed into Mount Manunggal in Cebu province in 1957, killing the president and twenty-four others on board."
+            ],
+            "img-sets": [
+                "./img/luzon/pinatuboimg/pinatubo1.jpg",
+                "./img/luzon/pinatuboimg/pinatubo2.jpg",
+                "./img/luzon/pinatuboimg/pinatubo3.jpg",
+                "./img/luzon/pinatuboimg/pinatubo4.jpg"
+            ]
+        },
+
+        "banaue": {
+            "img-main-hd": "./img/luzon/banaue.jpg",
+            "title": "Banaue Rice Terraces",
+            "location": "Located in the mountains of Banaue, in the province of Ifugao",
+            "explore": {
+                "Batad Village & Amphitheater:": "The most popular route, offering a stunning amphitheater-like view of the rice terraces",
+                "Tappiya Waterfalls Hike": "A challenging, steep, and often slippery hike leading to a massive waterfall near the Batad terraces",
+                "Camping": " A longer, intermediate-level hike connecting Batad to the more rustic village of Cambulo."
+            },
+            "recommended": "Lush green during April to May and October to November, and harvest season during June and December",
+            "requirement": "Registering with the local government, paying a 50-peso environmental fee, and booking accredited accommodation. Travelers must bring a vaccination card, plan for an 8-10 hour drive from Manila, and prepare for extensive walking, as many areas require hiking, particularly for accessing Batad Rice Terraces.",
+            "description": [
+                "The Banaue Rice Terraces are terraces that were carved into the mountains of Banaue, Ifugao, in the Philippines, by the ancestors of the Igorot people. The terraces were built with minimal equipment, largely by hand. The terraces are located approximately 1,500 meters (4,900 feet) above sea level. These are fed by an ancient irrigation system from the rainforests above the terraces.",
+                "Another thriving economy in the Banaue Rice Terraces is tourism. The Tourism industry has developed a number of activities for visitors which may include traditional sightseeing of the terraces and visits to the tribes at the foot of the terraces."
+            ],
+            "img-sets": [
+                "./img/luzon/banaueimg/banaue1.jpg",
+                "./img/luzon/banaueimg/banaue2.jpg",
+                "./img/luzon/banaueimg/banaue3.jpg",
+                "./img/luzon/banaueimg/banaue4.jpg"
+            ]
+        },
+
+        "calaguas": {
+            "img-main-hd": "./img/luzon/calaguas.jpg",
+            "title": "Calaguas Island",
+            "location": "Municipality of Vinzons, in the Province of Camarines Norte",
+            "explore": {
+                "Paracle:": "The most popular route, offering a stunning amphitheater-like view of the rice terraces",
+                "Vehicle:": "Take a bus to Daet, then a van/jeep to Paracale (1 hr) or Vinzons (1 hr)"
+            },
+            "recommended": "January to August (summer is best)",
+            "requirement": "Tourists are not allowed to enter PDZ without a licensed guide.",
+            "description": [
+                "Calaguas, also known as Calaguas Islands, is a group of islands located in the Philippine province of Camarines Norte. It includes the major islands of Tinaga Island and Guintinua Island, the minor Maculabo Island, as well as several other minor. The group of islands is around 200 km away from the capital city of Manila and can be accessed through the ports at Paracale and Daet, Camarines Norte.",
+                "The recent popularity of Calaguas Island has brought many tourists and travelers, especially during the summer. This has worried some of the natives and locals that increased tourism and the 2018 Boracay closure and redevelopment might lead to the detriment of the island's peace and serenity."
+            ],
+            "img-sets": [
+                "./img/luzon/calaguasimg/calaguas1.jpg" ,
+                "./img/luzon/calaguasimg/calaguas2.webp",
+                "./img/luzon/calaguasimg/calaguas3.jpg" ,
+                "./img/luzon/calaguasimg/calaguas4.webp"
+            ]
+            
+        },
+
+        "sabtang": {
+            "img-main-hd": "./img/luzon/sabtang.jpg",
+            "title": "Sabtang Island",
+            "location": "Municipality in the province of Batanes",
+            "explore": {
+                "Port:": " Take a 30–45 minute faluwa (traditional boat) ride from Ivana Port in Batan."
+            },
+            "recommended": "Dry Season (February - May) is ideal for calm sea-crossing and sunny days.",
+            "requirement": "Register at the Batanes Tourism Office in Basco and pay environmental fees, secure a seat on the faluwa (traditional boat) from Ivana Port (usually departing early morning), and hire a local tricycle tour guide upon arrival to visit sites like Chavayan and Morong Beach.",
+            "description": [
+                "Sabtang Island is a breathtaking, well-preserved, and southernmost island municipality in Batanes, Philippines, renowned for its traditional Ivatan stone houses, rocky coastlines, and vibrant green rolling hills. Known for its raw beauty and cultural heritage, it offers a glimpse into traditional life, with popular attractions including the Chamantad-Tinyan Viewpoint, Chavayan and Savidug villages, and the natural rock arch of Morong Beach.",
+                "The municipality is the southernmost island municipality in the Batanes Group of Islands. It consists primarily of Sabtang Island and two smaller and uninhabited islands nearby, namely, Ivuhos and Dequey. The municipality is known for its lighthouse and the old stone houses of the Ivatan villages of Chavayan and Savidug. Like Batan Island to the north, Sabtang also has a few Mission-style churches and white sand beaches."
+            ],
+            "img-sets": [
+                "./img/luzon/sabtangimg/sabtang1.jpeg",
+                "./img/luzon/sabtangimg/sabtang2.jpeg",
+                "./img/luzon/sabtangimg/sabtang3.jpeg",
+                "./img/luzon/sabtangimg/sabtang4.jpeg"
+            ]
+        },
+
+        "pagsanjan": {
+            "img-main-hd": "./img/luzon/pagsanjan.jpg",
+            "title": "Pagsanjan Falls",
+            "location": "Municipality of Cavinti, province of Laguna",
+            "explore": {
+                "Shooting the Rapids:": " Traditional dugout canoe ride departing from the town of Pagsanjan",
+                "Trekking:": "A land-based route through Pueblo El Salvador Nature Park in Cavinti, which involves stairs and rappelling"
+            },
+            "recommended": "August & September offer the most exciting, fast-paced \"shooting the rapids\" experience, while Dec-April offers a calmer, safer ride",
+            "requirement": "Booking a boat ride from Pagsanjan town (approx. PHP 1,250–1,500+ per person) or taking the land route/trekking via Pueblo El Salvador in Cavinti (approx. PHP 270–300 fee)",
+            "description": [
+                "agsanjan Falls, also known as Magdapio Falls or Cavinti Falls, is one of the Philippines' most iconic, three-tiered waterfalls located in Laguna province. Reached via a thrilling \"shooting the rapids\" canoe ride from Pagsanjan or a hike from Cavinti, it offers a scenic boat journey through a rocky gorge to a 91-meter-high main falls.",
+                "he boat ride has been an attraction since the Spanish colonial era, with the oldest surviving written account dating to 1894. The town of Pagsanjan lies at the confluence of two rivers, the Balanac River and the Bumbungan River (also known as the Pagsanjan River)."
+            ],
+            "img-sets": [
+                "./img/luzon/pagsanjanimg/pagsanjan1.jpg" ,
+                "./img/luzon/pagsanjanimg/pagsanjan2.jpg" ,
+                "./img/luzon/pagsanjanimg/pagsanjan3.jpeg",
+                "./img/luzon/pagsanjanimg/pagsanjan4.jpeg"
+            ]
+        }
+
+    },
+
+    "visayas": {
+        "hinagdanan": {
+            "img-main-hd": "./img/visayas/hinagdanan.avif",
+            "title": "Hinagdanan Cave",
+            "location": "Bingag, Dauis, Panglao Island, Bohol",
+            "explore": {
+                "From Alona Beach / Panglao:": "15-30 min ride trip including waiting time. Drivers usually know it and some act as informal guides.",
+                "Tagbilaran City:": "Take a bus from Tagbilaran Integrated Bus Terminal to Dauis/Calape, then tricycle to the cave."
+            },
+            "recommended": " Year-round; best during the morning to see sunlight filtering through the ceiling holes",
+            "requirement": "Pay an entrance fee and a separate fee if you intend to swim; local guides are available at the entrance",
+            "description": [
+                "Hinagdanan Cave is a cave in the municipality of Dauis on Panglao Island, in Bohol Province, in the Philippines. It is a naturally lighted cavern with a deep lagoon and many large stalactites and stalagmites. The cave is lit by sunlight which filters through holes in the ceiling.",
+                "Hinagdanan Cave is a naturally lighted limestone cavern featuring a deep blue lagoon and numerous stalactites and stalagmites. It was accidentally discovered by a farmer clearing his land. The cave’s name, \"Hinagdanan\" means \"laddered\" in Cebuano, referring to the access used to enter the cave."
+            ],
+            "img-sets": [
+                "./img/visayas/hinagdananimg/hinagdanan1.jpg",
+                "./img/visayas/hinagdananimg/hinagdanan2.jpg",
+                "./img/visayas/hinagdananimg/hinagdanan3.jpg",
+                "./img/visayas/hinagdananimg/hinagdanan4.jpg"
+            ]
+        },
+
+        "osmena": {
+            "img-main-hd": "./img/visayas/osmena.jpg",
+            "title": "Osmeña Peak",
+            "location": "Barangay Mantalungon, Dalaguete, Southern Cebu",
+            "explore": {
+                "Hiking:": "Trek for about 20-30 minutes from the trailhead to the summit",
+                "Camping:": "Overnight camping is allowed at designated spots near the peak for sunrise views"
+            },
+            "recommended": "Dry season (December to May) for clear views of the coastline",
+            "requirement": "Pay an entrance fee, register at the tourism desk, and pay a guide fee (optional but sometimes required.",
+            "description": [
+                "Osmeña Peak, located in Dalaguete, Cebu, is the highest point on Cebu Island at approximately 1,013 meters (3,323 feet) above sea level. Famous for its 360-degree views and jagged, green limestone hills resembling the Chocolate Hills.",
+                "It is a premier eco-tourism destination in Dalaguete, Cebu, popular for its accessible, short hike, and breathtaking 360-degree panoramic views."
+            ],
+            "img-sets": [
+                "./img/visayas/osmenaimg/osmena1.jpg",
+                "./img/visayas/osmenaimg/osmena2.jpg",
+                "./img/visayas/osmenaimg/osmena3.jpg",
+                "./img/visayas/osmenaimg/osmena4.jpg"
+            ]
+        },
+
+        "chocolatehills": {
+            "img-main-hd": "./img/visayas/chocolate.jpg",
+            "title": "Chocolate Hills",
+            "location": "Bohol Island primarily spread across the towns of Carmen, Batuan, and Sagbayan",
+            "explore": {
+                "Airport:": "Fly directly from NAIA to Bohol-Panglao International Airport (TAG)",
+                "Transportation:": "fly directly from NAIA to Bohol-Panglao International Airport (TAG). From there, hire a private taxi, rent a scooter, or take a guided Bohol Countryside Tour"
+            },
+            "recommended": " Dry season (late November to May) when the grass turns brown, giving them their name.",
+            "requirement": "Must pay an entrance fee—adjusted to ₱150 per person effective",
+            "description": [
+                "The Chocolate Hills are a geological formation in the Philippine province of Bohol. A minimum of 1,260 hills, and possibly over 1,776, spread over an area of more than 50 square kilometers (20 sq mi). They are covered in green grass that turns a chocolate-brown during the dry season, hence the name.",
+                "The Chocolate Hills are featured on the provincial flag and seal to symbolize the abundance of natural attractions in the province. The site is on the Philippine Tourism Authority's list of tourist destinations in the Philippines, and it has been declared the country's third national geological monument, as well as being proposed for inclusion in UNESCO's World Heritage List."
+            ],
+            "img-sets": [
+                "./img/visayas/chocolateimg/chocolate1.jpg",
+                "./img/visayas/chocolateimg/chocolate2.jpg",
+                "./img/visayas/chocolateimg/chocolate3.jpg",
+                "./img/visayas/chocolateimg/chocolate4.jpg"
+            ]
+        },
+
+        "kawasan": {
+            "img-main-hd": "./img/visayas/kawasan.jpg",
+            "title": "Kawasan Falls",
+            "location": "Barangay Matutinao, Badian, Cebu",
+            "explore": {
+                "From Moalboal:": "Take a southbound Ceres bus from the main road, rent a scooter for flexibility, or hire a tricycle/habal-habal directly to the Matutinao entrance",
+                "From Cebu City:": "Head to the South Bus Terminal and board a bus bound for Bato",
+                "Private tour": "Many operators provide round-trip van transfers from your hotel directly to the trailhead"
+            },
+            "recommended": " Weekdays during the dry season to avoid large crowds and ensure safe water levels for canyoneering",
+            "requirement": " Secure a certified guide for canyoneering; pay environmental and entrance fees",
+            "description": [
+                "Kawasan Falls is a multi-layered waterfall system located in Barangay Matutinao in the town of Badian, Cebu. It is without doubt the most visited tourist attraction here in Badian.",
+                "Famous for its beautiful turquoise water, Kawasan Falls sits at the foot of Mantalongon Mountain Range, approximately one kilometer from the national road of Badian and at least four hours of trekking from Osmeña Peak of Dalaguete. Its cold and clear water cascades through layers of waterfalls emanating from Kandayvic Spring before going to Matutinao River and the Tañon Strait.",
+                "The waterfall system consists of two main cascades both with deep natural pools ideal for swimming. The first cascade stands at approximately 40 meters while the less crowded second level has a height of approximately 20 meters and can be reached within ten minutes of trekking."
+            ],
+            "img-sets": [
+                "./img/visayas/kawasanimg/kawasan1.jpg",
+                "./img/visayas/kawasanimg/kawasan2.jpg",
+                "./img/visayas/kawasanimg/kawasan3.jpg",
+                "./img/visayas/kawasanimg/kawasan4.jpg"
+            ]
+        },
+
+        "boracayisland": {
+            "img-main-hd": "./img/visayas/boracay2.webp",
+            "title": "Boracay",
+            "location": "Northwest coast of Panay Island, province of Aklan",
+            "explore": {
+                "Caticlan Airport": "fly into Caticlan Airport (Boracay Airport / MPH)",
+                "Caticlan Port:": "Caticlan Airport (Boracay Airport / MPH), take a 5-minute tricycle to Caticlan Jetty Port and ride a 15-minute ferry to the island."
+            },
+            "recommended": "November to June (Amihan season) for the calmest waters on White Beach",
+            "requirement": " Valid ID, hotel booking confirmation (from accredited establishments), and QR code registration via the Aklan provincial portal",
+            "description": [
+                "Boracay is a world-renowned tropical resort island in the Philippines, located off the northwest coast of Panay. Famous for its powdery white sand, crystal-clear turquoise waters, and stunning sunsets, it is the country's premier beach destination",
+                "Apart from its white sand beaches, Boracay is also famous for being one of the world's top destinations for relaxation. As of 2013, it was emerging among the top destinations for tranquility and nightlife"
+            ],
+            "img-sets": [
+                "./img/visayas/boracayimg/boracay1.jpeg",
+                "./img/visayas/boracayimg/boracay2.jpg",
+                "./img/visayas/boracayimg/boracay3.jpg",
+                "./img/visayas/boracayimg/boracay4.jpeg"
+            ]
+        },
+
+        "pitogo": {
+            "img-main-hd": "./img/visayas/pitogo.jpg",
+            "title": "Pitogo Cliff",
+            "location": "Barangay Tag-ibo (or Barangay Pitogo), San Juan, Siquijor",
+            "explore": {
+                "Vehicle:": "Rent a motorbike, hire a local tricycle, or book a guided coastal island tour"
+            },
+            "recommended": " Summer months (March to October)",
+            "requirement": " Pay a small entrance fee to the local landowners or community.",
+            "description": [
+                "The Pitogo Cliff is a magnificent cliff located on Siquijor, an island in the Philippines. This cliff offers a breathtaking view of the ocean and surrounding landscape. It is renowned for its natural beauty and peaceful atmosphere. Pitogo Cliff is characterised by its steep cliffs plunging into the crystal-clear waters of the sea.",
+                "The cliffs are covered in lush vegetation, creating a striking contrast with the deep blue of the ocean. Visitors can stroll along the cliffs and enjoy breathtaking views."
+            ],
+            "img-sets": [
+                "./img/visayas/pitogoimg/pitogo1.jpeg",
+                "./img/visayas/pitogoimg/pitogo2.jpeg",
+                "./img/visayas/pitogoimg/pitogo3.jpeg",
+                "./img/visayas/pitogoimg/pitogo4.jpeg"
+            ]
+        },
+
+        "apois": {
+            "img-main-hd": "./img/visayas/apoIsland.jpeg",
+            "title": "Apo Island",
+            "location": " 7 km off the southeastern tip of Negros Island",
+            "explore": {
+                "Transportation:": "Fly to Dumaguete City, take a 30-minute jeepney, bus, or tricycle ride to Malatapay Market in Zamboanguita",
+                "Port:": "take a 30-45 minute authorized pump boat to the island"
+            },
+            "recommended": "Year-round, but April to September offers the calmest seas for the boat crossing",
+            "requirement": "Register at the Malatapay Wharf, pay the marine sanctuary fee, and hire a mandatory snorkeling guide",
+            "description": [
+                "Apo Island, located 7 km off the southeastern tip of Negros Island and 30 km south of Dumaguete, is a world-renowned 74-hectare volcanic island famous for its thriving community-managed marine sanctuary. It is home to over 650 fish species, 400 coral species, and a high concentration of green and hawksbill sea turtles.",
+                "The marine habitat around the island is a marine reserve, protected by the National Integrated Protected Area Act (NIPA) and under the jurisdiction of the Protected Area Management Board (PAMB). It has become a popular dive site and snorkeling destination with tourists. There are two resorts on Apo Island, each with a dive center: Apo Island Beach Resort and Liberty's Lodge. There is also a ranger station and a lighthouse."
+            ],
+            "img-sets": [
+                "./img/visayas/apoIslandimg/apoIsland1.jpeg",
+                "./img/visayas/apoIslandimg/apoIsland2.jpeg",
+                "./img/visayas/apoIslandimg/apoIsland3.jpeg",
+                "./img/visayas/apoIslandimg/apoIsland4.jpeg"
+            ]
+        },
+
+        "manjuyod": {
+            "img-main-hd": "./img/visayas/manjuyod.jpg",
+            "title": "Manjuyod Sandbar",
+            "location": "North Bais Bay of the Tañon Strait, between the municipality of Manjuyod and Bais City, eastern coast of Negros Oriental",
+            "explore": {
+                "Plane and Bus": "Fly to Dumaguete City and take a 1-hour Ceres bus to Bais City",
+                "Motor boat:": "Rent a motorized outrigger boat for a 15 to 20-minute ride to the sandbar"
+            },
+            "recommended": "Dry season; time your visit during low tide to see the white sand emerge",
+            "requirement": "Book a boat at the Capiñahan or Canibol Wharf; pay the docking and environmental fees",
+            "description": [
+                "The Manjuyod Sandbar is a stunning 7-kilometer stretch of powdery white sand in Negros Oriental, Philippines. Widely known as the \"Maldives of the Philippines,\" it features crystal-clear teal waters and famous stilt cottages. The sandbar is fully submerged during high tide and emerges during low tide.",
+                "One of the unique features of Manjuyod Sandbar is the cluster of small huts that are built on stilts in the water. These huts, known as “cottages,” are available for rent and offer visitors a chance to stay overnight on the sandbar. They are equipped with basic amenities like electricity, running water, and a small kitchen, and they provide a unique and unforgettable experience for visitors who want to immerse themselves in the natural beauty of the sandbar"
+            ],
+            "img-sets": [
+                "./img/visayas/manjuyodimg/manjuyod1.jpeg",
+                "./img/visayas/manjuyodimg/manjuyod2.jpeg",
+                "./img/visayas/manjuyodimg/manjuyod3.jpg",
+                "./img/visayas/manjuyodimg/manjuyod4.jpeg"
+            ]
+        },
+
+        "kalanggaman": {
+            "img-main-hd": "./img/visayas/kalanggaman.jpg",
+            "title": "Kalanggaman Island",
+            "location": "Municipality of Palompon, Leyte",
+            "explore": {
+                "Pampolon route": "Take a 1.5-hour UV Express or van to Palompon. Walk or take a short tricycle ride to the Palompon Tourism Office",
+                "Registration:": "Register at the Palompon Tourism Office before hiring a motorized outrigger boat for a 1-hour ride to the island"
+            },
+            "recommended": " March to May for the calmest weather and most visible sandbar",
+            "requirement": " Pre-registration at the Palompon Eco-Tourism Office is required as there is a daily limit on visitors",
+            "description": [
+                "Kalanggaman Island is a sandbar located in the sea between Leyte and Cebu, in the Visayas Archipelago of the Philippines. It is located 10 kilometres west from the municipality of Palompon, Leyte. It got its name from the local word \"langgam\" which means bird or fowl.",
+                "Kalanggaman Island is famous for its long, white sandbar that stretches out from both ends of the island. It is an uninhabited paradise with no large resorts, offering a raw and peaceful beach experience surrounded by turquoise waters."
+            ],
+            "img-sets": [
+                "./img/visayas/kalanggamanimg/kalanggaman1.jpeg",
+                "./img/visayas/kalanggamanimg/kalanggaman2.jpeg",
+                "./img/visayas/kalanggamanimg/kalanggaman3.jpeg",
+                "./img/visayas/kalanggamanimg/kalanggaman4.jpeg"
+            ]
+        }
+    },
+
+    "mindanao": {
+        "mtapo": {
+            "img-main-hd": "./img/mindanao/mtapo.jpg",
+            "title": "Mount Apo",
+            "location": "Boundaries of Davao City and the provinces of Davao del Sur",
+            "explore": {
+                "Santa Cruz Trail:": "It is the shortest route but highly technical",
+                "Kidapawan Trail:": "Starts in Kidapawan, North Cotabato. Often called the Ko-ong trail, it is the widest route",
+                "Kapatagan Trail: ": "Jump-off is in Digos City/Kapatagan. This route is slightly longer than the others but adjacent to Sibulan",
+                "Bansalan Trail:": "Starts in Sitio Sumpan/Balutakay, Bansalan, Davao del Sur"
+            },
+            "recommended": " Summer months (March to May); trekking is often suspended during the rainy season for safety",
+            "requirement": "Climbing permit (limited slots), a certified guide, and requires a medical certificate",
+            "description": [
+                "Mount Apo is the highest mountain peak in the Philippines, with an elevation of 2,954 meters (9,692 ft) above sea level. A large solfataric, dormant stratovolcano, it is part of the Apo-Talomo Mountain Range of Mindanao island. Apo is situated on the tripartite border of Davao City, Davao del Sur, and Cotabato; its peak is visible from Davao City 45 kilometers (28 mi) to the northeast, Digos 25 kilometers (16 mi) to the southeast, and Bansalan 20 kilometers (12 mi) to the west. Apo is a protected area and is the centerpiece of Mount Apo Natural Park.",
+                "Mount Apo is a flat-topped, 2,954 m (9,692 ft) (above sea level) high stratovolcano with three peaks. It is the highest peak of the Philippines. The southwest peak has the highest elevation and is topped by a 200 m (656 ft) wide crater that contains a small lake."
+            ],
+            "img-sets": [
+                "./img/mindanao/mtapoimg/mtapo1.jpeg",
+                "./img/mindanao/mtapoimg/mtapo2.jpeg",
+                "./img/mindanao/mtapoimg/mtapo3.jpeg",
+                "./img/mindanao/mtapoimg/mtapo4.jpeg"
+            ]
+        },
+
+        "white": {
+            "img-main-hd": "./img/mindanao/white.jpg",
+            "title": "White Island",
+            "location": "Northern coast of Mambajao in Camiguin",
+            "explore": {
+                "Direct Flight:": "Flying directly to Camiguin Airport (CGM) in Mambajao",
+                "Ferry Terminal:": "Navigate to the White Island Ferry Terminal in Brgy. Yumbing"
+            },
+            "recommended": "December to May is the recommended season for sunny weather, with low tide typically providing the best sandbar experience and  5:00 AM and 8:00 AM to avoid intense heat",
+            "requirement": "Register at the jump-off point in Brgy. Agoho and pay the environmental and boat fees.",
+            "description": [
+                "White Island is an uninhabited white sandbar located about 1.4 kilometres (0.87 mi) off the northern shore of Mambajao in the volcanic island of Camiguin in the Philippines. The island is generally horseshoe shaped, although the tides constantly resize and reshape its exact form. There are no trees or shelter of any kind, and it is composed solely of white sands.",
+                "White Island attracts thousands of tourists every year. The island can be accessed from Barangay Agoho or Brgy. Yumbing in Mambajao about 4 to 6 kilometres (2.5 to 3.7 mi) west of the poblacion or town center. Small boats can be hired from any of the beachfront resorts that face the island."
+            ],
+            "img-sets": [
+                "./img/mindanao/whiteimg/white1.jpeg",
+                "./img/mindanao/whiteimg/white2.jpeg",
+                "./img/mindanao/whiteimg/white3.jpeg",
+                "./img/mindanao/whiteimg/white4.jpg"
+            ]
+        },
+
+        "pink": {
+            "img-main-hd": "./img/mindanao/pink.jpg",
+            "title": "Pink Sand Beach",
+            "location": "Great Santa Cruz Island, Basilan Strait, 4 km south of downtown Zamboanga City",
+            "explore": {
+                "Airport:": "Hail a tricycle or taxi to Paseo del Mar (near Fort del Pilar)",
+                "Boat Ride:": "Boats operate daily from 7:00 AM to 2:00 PM. Trips back to the mainland usually wrap up by 3:00 PM"
+            },
+            "recommended": "Year-round, but strictly by daytime reservation only",
+            "requirement": "Book through the Zamboanga City Tourism Office; no walk-ins are allowed due to strict visitor limits",
+            "description": [
+                "Pink Sand Beach or Great Santa Cruz Island is a small inhabited island in Zamboanga City in the southern region of the Philippines that is famous for its pink coralline sand. The island, located 4 kilometres (2.49 mi) south of downtown at the Santa Cruz Bank in the Basilan Strait, boasts one of the pink sand beaches in the Philippines. The color of the sand comes from the pulverized red organ pipe coral from eons of surf erosion mixed with the white sand.",
+                "The island started to become popular since the 1970s and early 1980s when it was frequented by German, Japanese and Italian tourists. Recently, there's an upsurge of tourists that has been recorded due to its rising popularity as one of a handful of Pink Sand Beaches in the World and is the only one in Asia."
+            ],
+            "img-sets": [
+                "./img/mindanao/pinkimg/pink1.jpeg",
+                "./img/mindanao/pinkimg/pink2.jpeg",
+                "./img/mindanao/pinkimg/pink3.jpg",
+                "./img/mindanao/pinkimg/pink4.jpg"
+            ]
+        },
+
+        "sebu": {
+            "img-main-hd": "./img/mindanao/sebu.jpg",
+            "title": "Lake Sebu",
+            "location": "Province of South Cotabato",
+            "explore": {
+                "Terminal:": "From GenSan Airport, take a white multicab o the Bulaong Terminal",
+                "Direct Van:": " Board a direct passenger van straight to Lake Sebu"
+            },
+            "recommended": " August to October to see the lotus flowers in full bloom",
+            "requirement": "Pay entrance fees at individual waterfall sites; follow local T'boli cultural protocols",
+            "description": [
+                "Lake Sebu, is a natural lake located in the municipality of Lake Sebu, South Cotabato within the Alah Valley region. The Philippine government has recognized it as one of the country's most important watersheds. Lake Sebu is one of the many bodies of water supplying important irrigation to the provinces of Sultan Kudarat and South Cotabato.",
+                "The villages around the lake have been turned into an independent municipality called Lake Sebu after being a former village of Surallah."
+            ],
+            "img-sets": [
+                "./img/mindanao/sebuimg/sebu1.jpeg",
+                "./img/mindanao/sebuimg/sebu2.jpeg",
+                "./img/mindanao/sebuimg/sebu3.jpg",
+                "./img/mindanao/sebuimg/sebu4.jpeg"
+            ]
+        },
+
+        "hinatuan": {
+            "img-main-hd": "./img/mindanao/hinatuan.webp",
+            "title": "Hinatuan Enchanted River",
+            "location": "Barangay Talisay, Hinatuan, Surigao del Sur",
+            "explore": {
+                "Bus:": " Take a Bachelor Express bus from the Butuan Bus Terminal bound for Bislig",
+                "Local Transit:": "From Hinatuan town, register and pay fees at the designated harbour or tourism office before taking a tricycle or habal-habal (motorcycle) to the Enchanted River"
+            },
+            "recommended": "Weekdays to avoid heavy local crowds",
+            "requirement": "Pay environmental fees; swimming is no longer allowed in the main \"blue hole\" to preserve the spring",
+            "description": [
+                "The Hinatuan Enchanted River, also called the Hinatuan Sacred River, is a deep spring river on the island of Mindanao in the Philippines. It flows into the Philippine Sea and the Pacific Ocean at Barangay Talisay, Hinatuan, Surigao del Sur. It is found between the boundaries of Barangays of Talisay and Cambatong. It earned the moniker \"enchanted river\" from the diplomat Modesto Farolan who described the river in his poem entitled \"Rio Encantado\".",
+                "The Enchanted River is a deep spring river known for its crystalline blue waters that seem to glow. Local legend says fairies and spirits protect the river, which is why the water remains so clear despite the depth, which remains largely unexplored in its underwater cave systems."
+            ],
+            "img-sets": [
+                "./img/mindanao/hinatuanimg/hinatuan1.jpeg",
+                "./img/mindanao/hinatuanimg/hinatuan2.jpeg",
+                "./img/mindanao/hinatuanimg/hinatuan3.jpeg",
+                "./img/mindanao/hinatuanimg/hinatuan4.jpeg"
+            ]
+        },
+
+        "siargaois": {
+            "img-main-hd": "./img/mindanao/siargaoNew.jpg",
+            "title": "Siargao",
+            "location": "Northeastern corner of Surigao del Norte",
+            "explore": {
+                "Airport:": "booking a direct flight to Sayak Airport (IAO)",
+                "Ferry:": "If you are on a tight budget or bringing a vehicle, you can take the sea route in Cebu to Surigao City and Surigao City to Dapa"
+            },
+            "recommended": "August to November for peak surfing; March to May for calmer waters and island hopping",
+            "requirement": " Valid ID; some local establishments may require proof of vaccination or pre-registration via the e-Gov portal",
+            "description": [
+                "Siargao is the \"Surfing Capital of the Philippines.\" Beyond its iconic waves, the island features vast coconut plantations, the emerald waters of Sugba Lagoon, and a laid-back island vibe that attracts travelers from all over the world.",
+                "Siargao is composed of 48 islands and islets-politically divided into nine municipalities: Burgos, Dapa, Del Carmen, Gen. luna, Pilar, San Benito, San Isidro, Santa Monica, and Socorro."
+            ],
+            "img-sets": [
+                "./img/mindanao/siargaoNewimg/siargaoNew1.jpeg",
+                "./img/mindanao/siargaoNewimg/siargaoNew2.jpg",
+                "./img/mindanao/siargaoNewimg/siargaoNew3.jpeg",
+                "./img/mindanao/siargaoNewimg/siargaoNew4.jpeg"
+            ]
+        },
+
+        "holon": {
+            "img-main-hd": "./img/mindanao/holon.jpeg",
+            "title": "Lake Holon",
+            "location": "Atop the active stratovolcano Mount Melibengoy in T'boli, South Cotabato",
+            "explore": {
+                "T'boli Tourism Office:": "Commuting to the local municipal tourism office, as walk-ins without proper registration and local guides are strictly prohibited",
+                "Habal-Habal:": "Charter a local motorcycle taxi—often locally referred to as a \"skylab\" to take you up the mountain"
+            },
+            "recommended": "Dry season; the park often closes annually (usually January to March) for rehabilitation",
+            "requirement": "Register at the T'boli Tourism Office and secure a local guide",
+            "description": [
+                "Lake Holon is a crater lake in South Cotobato in the Mindanao region that is also known as the Crown Jewel of the South. Lake Holon is known for its scenic and relaxing view, which makes it one of the top emerging tourist spot in Mindanao and ecotourism.",
+                "Formed by the eruption of Mount Melibengoys, Lake Holon is a crater lake sitting at 1,756 meters above sea level. It is considered sacred by the T'boli tribe and is known for its pristine, cold waters and the \"Crown of the Peaks\" that surrounds it."
+            ],
+            "img-sets": [
+                "./img/mindanao/holon/holon1.jpg",
+                "./img/mindanao/holon/holon2.jpeg",
+                "./img/mindanao/holon/holon3.webp",
+                "./img/mindanao/holon/holon4.jpeg"
+            ]
+        },
+
+        "tinuy": {
+            "img-main-hd": "./img/mindanao/tinuy-an.jpg",
+            "title": "Tinuy-an Falls",
+            "location": "Barangay Burboanan, Bislig City, Surigao del Sur",
+            "explore": {
+                "Gateways:": "Reach the Gateways because Bislig City does not handle commercial flights, you will need to fly or travel into one of the nearest major transport hubs",
+                "Habal-Habal:": " Most common and adventurous method. You can hire a driver at the public market or terminal",
+                "Bao-Bao:": "Rent a local tricycle/bao-bao or a private rental van"
+            },
+            "recommended": "Rainy season (November to February) for the most powerful water flow",
+            "requirement": "Pay the entrance and parking fees at the tourism gate",
+            "description": [
+                "Tinuy-an Falls is a multi-tiered waterfall in Bislig, Surigao del Sur in the southern island of Mindanao, Philippines. Bislig is a city known as the Booming City by the Bay. The waterfall itself has been featured in various international travel magazines and TV shows.",
+                "Known as the \"Little Niagara Falls of the Philippines,\" Tinuy-an Falls is a multi-tiered curtain waterfall that spans 95 meters in width. It is one of the widest waterfalls in the country, surrounded by a lush forest protected as a sanctuary."
+            ],
+            "img-sets": [
+                "./img/mindanao/tinuy-animg/tinuy-an1.jpeg",
+                "./img/mindanao/tinuy-animg/tinuy-an2.jpeg",
+                "./img/mindanao/tinuy-animg/tinuy-an3.jpeg",
+                "./img/mindanao/tinuy-animg/tinuy-an4.webp"
+            ]
+        },
+
+        "hamiguitan": {
+            "img-main-hd": "./img/mindanao/hamiguitan.jpeg",
+            "title": "Mount Hamiguitan",
+            "location": "San Isidro, Governor Generoso, and Mati, Davao Oriental",
+            "explore": {
+                "GovGen–San Isidro trail:": "Very challenging 3-day expedition spanning roughly 30–35 km"
+            },
+            "recommended": "Dry season (March to May)",
+            "requirement": " Strict permit requirements from the PAMB (Protected Area Management Board); only limited hikers are allowed",
+            "description": [
+                "Mount Hamiguitan is a mountain located in the province of Davao Oriental, Philippines. It has a height of 1,620 metres. The mountain and its vicinity has one of the most diverse wildlife populations in the country. Among the wildlife found in the area are Philippine eagles and several species of Nepenthes.",
+                "Mount Hamiguitan is a UNESCO World Heritage site famous for its unique \"pygmy\" or bonsai forest. The mountain is a critical habitat for the Philippine Eagle and the Philippine Cockatoo, representing a diverse range of flora and fauna found nowhere else on Earth"
+            ],
+            "img-sets": [
+                "./img/mindanao/hamiguitanimg/hamiguitan1.jpeg",
+                "./img/mindanao/hamiguitanimg/hamiguitan2.jpeg",
+                "./img/mindanao/hamiguitanimg/hamiguitan3.webp",
+                "./img/mindanao/hamiguitanimg/hamiguitan4.jpeg"
+            ]
+        }
+    }
+}
