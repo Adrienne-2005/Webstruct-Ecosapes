@@ -77,9 +77,9 @@ body {
     min-height: 100vh;
 
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 5%;
     align-items: center;
-    gap: 3rem;
 
     padding: 7rem 5%;
     overflow: hidden;
@@ -98,15 +98,16 @@ body {
 }
 
 .left {
-    width: 100rem;
+    width: 50%;
+    height: 50%;
 
-    padding: 5px;
+    padding: 2%;
     text-align: center;
     
     background: rgba(3, 33, 42, 0.585);
     backdrop-filter: blur(7.5px);
     -webkit-backdrop-filter: blur(7.5px);
-    border: 2px solid rgb(142, 156, 160);
+    border: 2px solid rgb(163, 185, 192);
 
     border-radius: 25px;
 
@@ -118,52 +119,38 @@ body {
 .left h1,
 .left p {
     text-align: left;
-    margin: 6%;
+    margin: 5%;
     overflow: hidden;
 }
 
 .left h4 {
-    font-size: clamp(1.2rem, 0.836rem + 1.82vw, 2.2rem);
+    font-size: clamp(1rem, 0.5rem + 2.5vw, 3.5rem);
     letter-spacing: 1px;
     font-weight: 800;
 }
 
 .left h1 {
-    font-size: clamp(2.75rem, 1.659rem + 5.45vw, 5.75rem);
+    font-size: clamp(1rem, -0.2rem + 6vw, 7rem);
     line-height: 0.9;
     font-weight: 800;
 }
 
 .left p {
-    font-size: clamp(0.75rem, 0.623rem + 0.64vw, 1.1rem);
+    font-size: clamp(0.75rem, 0.63rem + 0.6vw, 1.35rem);
     line-height: 1.6;
     font-weight: 450;
     color: #8ea7bc;
 }
 
-.right {
-    width: min(100%, 45rem);
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-    transform: none;
-    z-index: 2;
-
-    margin-top: 5%;
-}
-
 #descBtn {
-    padding: 4% 8%;
-    border-radius: 30px;
-    border: 2px solid rgb(255, 255, 255);
+    padding: 2.5% 5%;
+    border-radius: 20px;
+    border: 2px solid rgb(183, 198, 205);
 
     background: rgba(39, 105, 175, 0.1);
     backdrop-filter: blur(10px);
 
-    font-size: clamp(0.7rem, 0.555rem + 0.73vw, 1.1rem);
+    font-size: clamp(0.7rem, 0.58rem + 0.6vw, 1.3rem);
     font-weight: 500;
     letter-spacing: 1px;
     cursor: pointer;
@@ -182,6 +169,20 @@ body {
     color:black;
 }
 
+.right {
+    width: 50%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    transform: none;
+    z-index: 2;
+
+    margin-top: 5%;
+}
+
 .search-bar {
     width: 75%;
     display: flex;
@@ -193,10 +194,10 @@ body {
     backdrop-filter: blur(8px);
 
     width: 100%;
-    max-width: 32rem;
+    height: clamp(1.5rem, 0.8rem + 3.5vw, 5rem);
 
-    padding: clamp(0.7rem, 0.591rem + 0.55vw, 1rem);
-    border-radius: 30px;
+    padding: clamp(0.7rem, 0.64rem + 0.3vw, 1rem);
+    border-radius: 20px;
     border: 1px solid rgba(255,255,255,0.6);
 
     margin-top: 1rem;
@@ -205,6 +206,7 @@ body {
 
 .search-bar input::placeholder {
     color: whitesmoke;
+    font-size: 1rem;
 }
 
 .slides {
@@ -222,9 +224,11 @@ body {
     animation: slideLoop 18s linear infinite;
 }
 
+/*
 .cards-track:hover {
     animation-play-state: paused;
 }
+*/
 
 .siargao,
 .mayon,
@@ -233,7 +237,7 @@ body {
 .bora {
     flex: 0 0 auto;
 
-    width: clamp(15rem, 14.273rem + 3.64vw, 17rem);
+    width: clamp(15rem, 14rem + 5vw, 20rem);
     height: auto;
 
     background: rgba(3, 56, 72, 0.585);
@@ -247,13 +251,13 @@ body {
 
 .cards-track img {
     width: 100%;
-    height: clamp(180px, 20vw, 240px);
+    height: clamp(15rem, 16.67vw, 20rem);
     object-fit: cover;
     border-radius: 25px;
 }
 
 .cards-track h3 {
-    font-size: clamp(1.1rem, 0.955rem + 0.73vw, 1.5rem);
+    font-size: clamp(1.1rem, 0.92rem + 0.9vw, 2rem);
     text-align: center;
 }
 
@@ -285,6 +289,15 @@ body {
         text-align: center;
         gap: 0;
         padding: 0;
+    }
+
+    .left h4 {
+    font-size: clamp(1.2rem, 0.745rem + 2.27vw, 2.2rem);
+    }
+
+    .left h1 {
+        font-size: clamp(2.62rem, 1.765rem + 4.27vw, 4.5rem);
+
     }
 
 
@@ -341,7 +354,7 @@ body {
 
 .about-us {
     width: 80%;
-    height: 24rem;
+    height: clamp(30rem, 27rem + 15vw, 45rem);
     border-radius: 20px;
     
     background-color: #082933;
@@ -387,25 +400,26 @@ body {
 }
 
 .about-us h2 {
-    font-size: clamp(1rem, -0.091rem + 5.45vw, 4rem);
+    font-size: clamp(2rem, 1.3rem + 3.5vw, 5.5rem);
     position: absolute;
     left: 25px;
     top: 5%;
+    margin: auto auto 0 2%;
 }
 
 .about-us p {
     position: relative;
-    margin-top: 5rem;
+    margin-top: 5%;
     text-align: left;
     margin-right: 42%;
-    font-size: clamp(0.65rem, 0.559rem + 0.45vw, 1.1rem);
+    font-size: clamp(0.65rem, 0.46rem + 0.95vw, 1.6rem);
     color: #8ea7bc;
 }
 
 .mission,
 .vision {
     width: 42%;
-    height: 16rem;
+    height: clamp(15rem, 12.6rem + 12vw, 27rem);
     border-radius: 20px;
     
     background-color: #082933;
@@ -422,7 +436,6 @@ body {
     align-items: center;
     justify-content: center;
     text-align: left;
-    padding: 30px;
 }
 
 .mission {
@@ -436,20 +449,20 @@ body {
 
 .mission h2,
 .vision h2 {
-    font-size: clamp(1rem, -0.091rem + 5.45vw, 4rem);
+    font-size: clamp(1rem, 0.1rem + 4.5vw, 5.5rem);
     position: absolute;
     top: 0;
     left: 0;
-    margin: 5% 0 0 8%;
+    margin: 3% 0 0 8%;
 }
 
 .mission p,
 .vision p {
     position: relative;
-    margin: 15% 48% 0 4%;
+    margin: 10% 48% 0 4%;
     text-align: left;
     float: left;
-    font-size: clamp(0.65rem, 0.559rem + 0.45vw, 1.1rem);
+    font-size: clamp(0.65rem, 0.46rem + 0.95vw, 1.6rem);
     color: #8ea7bc;
 }
 
@@ -558,7 +571,7 @@ body {
 }
 
 .dtnt-head h1 {
-    font-size: clamp(2.5rem, 1.227rem + 6.36vw, 6rem);
+    font-size: clamp(2.5rem, 1.2rem + 6.5vw, 9rem);
     font-weight: 800;
     margin: 5% 0 5%;
 }
@@ -572,7 +585,7 @@ body {
 }
 
 .dtnt-head p {
-    font-size: clamp(0.8rem, 0.636rem + 0.82vw, 1.25rem);
+    font-size: clamp(0.8rem, 0.65rem + 0.75vw, 1.55rem);
     text-align: justify;
     color: #afc5d6;
 }
@@ -583,12 +596,12 @@ body {
 }
 
 .pick h2 {
-    font-size: clamp(2rem, 0.909rem + 5.45vw, 5rem);
+    font-size: clamp(2rem, 1rem + 5vw, 7rem);
     font-weight: 700;
 }
 
 .pick p {
-    font-size: clamp(0.75rem, 0.605rem + 0.73vw, 1.15rem);
+    font-size: clamp(0.75rem, 0.6rem + 0.75vw, 1.5rem);
     margin: 0 0 0 5%;
     color: #8ea7bc;
 }
@@ -637,7 +650,7 @@ body {
 
 .main-card img {
     width: 100%;
-    height: 60%;
+    height: clamp(10rem, 7rem + 15vw, 25rem);
     display: block;
     margin: 0 auto;
     object-fit: cover;
@@ -648,7 +661,7 @@ body {
 .main-card h3 {
     position: relative;
     z-index: 2;
-    font-size: clamp(2rem, 0.216rem + 3.71vw, 3rem);
+    font-size: clamp(2rem, 1.69rem + 1.55vw, 3.55rem);
     text-align: center;
     color: whitesmoke;
 }
@@ -658,7 +671,7 @@ body {
     z-index: 2;
     margin: auto;
     padding: 0 6px;
-    font-size: clamp(0.65rem, 0.523rem + 0.64vw, 0.9rem);
+    font-size: clamp(0.65rem, 0.56rem + 0.45vw, 1.1rem);
     text-align: center;
     color: whitesmoke;
     overflow-wrap: break-word;
@@ -817,7 +830,7 @@ body {
 }
 
 .ecoscapes p {
-    font-size: clamp(1.8rem, 1.6rem + 1vw, 2.35rem);
+    font-size: clamp(1.8rem, 1.62rem + 0.9vw, 2.7rem);
     font-family: 'Jungleroot', sans-serif;
     letter-spacing: 2.5px;
     position: relative;
@@ -838,7 +851,7 @@ body {
     text-decoration: none;
     color: whitesmoke;
     font-weight: 500;
-    font-size: clamp(0.85rem, 0.705rem + 0.73vw, 1.25rem);
+    font-size: clamp(0.85rem, 0.72rem + 0.65vw, 1.5rem);
     gap: 2rem;
 
     margin-right: 2.2vw; 
@@ -1024,12 +1037,12 @@ body {
 }
 
 .destinations-intro h1 {
-    font-size: clamp(3.75rem, 2.568rem + 5.91vw, 7rem);
+    font-size: clamp(3.75rem, 2.5rem + 6.25vw, 10rem);
     font-weight: 800;
 }
 
 .destinations-intro p {
-    font-size: clamp(0.775rem, 0.602rem + 0.86vw, 1.25rem);
+    font-size: clamp(0.775rem, 0.56rem + 1.08vw, 1.85rem);
     margin: 0 2% 0 2%;
     text-align: justify;
     margin-top: 1rem;
@@ -1050,12 +1063,12 @@ body {
 }
 
 .destinations-card-head h2 {
-    font-size: clamp(2.1rem, 1.409rem + 3.45vw, 4rem);
+    font-size: clamp(2.1rem, 1.32rem + 3.9vw, 6rem);
     font-weight: 800;
 }
 
 .destinations-card-head p {
-    font-size: clamp(1rem, 0.818rem + 0.91vw, 1.5rem);
+    font-size: clamp(1rem, 0.8rem + 1vw, 2rem);
     margin: 0 2% 0 2%;
 
         opacity: 0.7;
@@ -1065,7 +1078,6 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* Desktop = 3 columns */
     gap: 2rem;
-    max-width: 1220px;
     width: 90%;
     margin: auto;
     padding: 2rem 0;
@@ -1080,10 +1092,11 @@ body {
 }
 
 .destinations-container {
-    height: clamp(25.5rem, 23.864rem + 8.18vw, 30rem);
+    height: clamp(25.5rem, 0.229rem + 33.14vw, 40rem);
     background-color: #082933;
     border-radius: 40px;
     padding: 1.75rem;
+
     box-shadow: 0 8px 8px rgba(2, 22, 34, 0.29);
     backdrop-filter: blur(4.5px);
     -webkit-backdrop-filter: blur(4.5px);
@@ -1099,7 +1112,7 @@ body {
 
 .destinations-cards img {
     width: 100%;
-    height: clamp(22rem, 20.341rem + 8.3vw, 26.563rem);
+    height: clamp(22rem, -2.4rem + 32vw, 36rem);
     object-fit: cover;
     border-radius: 30px;
     display: block;
@@ -1111,8 +1124,8 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    width: 94%;
-    height: 91%;
+    width: 91%;
+    height: 92%;
     transform: translate(0.8rem, 1.4rem);
     background: linear-gradient(#ff7f5f00, #0728329f);
     z-index: 1;
@@ -1128,12 +1141,28 @@ body {
 
 .card-fx h3 {
     margin-top: -6rem;
-    font-size: clamp(1.5rem, 1.318rem + 0.91vw, 2rem);
+    font-size: clamp(1.5rem, -0.679rem + 2.86vw, 2.75rem);
+}
+
+@media only screen and (min-width: 1501px) {
+    .card-fx h3 {
+        margin-top: -8rem;
+    }
+
+    .color-overlay {
+        width: 93%;
+    }
+}
+
+@media only screen and (max-width: 1385px){
+    .findYourself {
+    }
 }
 
 .card-fx h4 {
-    font-size: clamp(0.8rem, 1.5vw, 1rem);
+    font-size: clamp(0.8rem, 0.016rem + 1.03vw, 1.25rem);
     text-align: center;
+    opacity: 0.7;
 }
 
 .destinations-container:hover {
@@ -1186,6 +1215,10 @@ body {
     .destinations-tab {
         display: none;
     }
+
+    .color-overlay {
+        width: 94%;
+    }
 }
 
 @media only screen and (max-width: 425px) {
@@ -1195,6 +1228,10 @@ body {
 
     .ecoscapes p {
         display: none;
+    }
+
+    .color-overlay {
+        width: 90%;
     }
 }
 
@@ -1378,5 +1415,151 @@ body {
         grid-template-columns: 1fr;
     }
 
+}
+
+
+/* LOGIN BUTTON */
+/* Card Container */
+.login-card {
+    background: #ffffff;
+    width: 100%;
+    max-width: 400px;
+    padding: 40px 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(149, 157, 165, 0.2);
+}
+
+.login-header {
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.login-header h2 {
+    color: #1a1a1a;
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.login-header p {
+    color: #666666;
+    font-size: 14px;
+}
+
+/* Form Controls & Floating Labels */
+.form-group {
+    position: relative;
+    margin-bottom: 24px;
+}
+
+.form-input {
+    width: 100%;
+    padding: 14px 16px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    font-size: 16px;
+    color: #1a1a1a;
+    outline: none;
+    background: transparent;
+    transition: all 0.2s ease;
+}
+
+.form-input:focus {
+    border-color: #4f46e5;
+    box-shadow: 0 0 0 4px rgba(79, 70, 229, 0.1);
+}
+
+.form-label {
+    position: absolute;
+    left: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #ffffff;
+    padding: 0 4px;
+    color: #888888;
+    font-size: 16px;
+    pointer-events: none;
+    transition: all 0.2s ease;
+}
+
+/* When input is focused or contains text, move label up */
+.form-input:focus ~ .form-label,
+.form-input:not(:placeholder-shown) ~ .form-label {
+    top: 0;
+    font-size: 12px;
+    color: #4f46e5;
+    font-weight: 500;
+}
+
+/* Utilities */
+.form-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+    font-size: 14px;
+}
+
+.remember-me {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #444444;
+    cursor: pointer;
+}
+
+.remember-me input {
+    accent-color: #4f46e5;
+    cursor: pointer;
+}
+
+.forgot-link {
+    color: #4f46e5;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.forgot-link:hover {
+    text-decoration: underline;
+}
+
+/* Primary Button */
+.submit-btn {
+    width: 100%;
+    padding: 14px;
+    background: #4f46e5;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s ease, transform 0.1s ease;
+}
+
+.submit-btn:hover {
+    background: #4338ca;
+}
+
+.submit-btn:active {
+    transform: scale(0.98);
+}
+
+/* Footer Links */
+.login-footer {
+    text-align: center;
+    margin-top: 24px;
+    font-size: 14px;
+    color: #666666;
+}
+
+.signup-link {
+    color: #4f46e5;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.signup-link:hover {
+    text-decoration: underline;
 }
 
