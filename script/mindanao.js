@@ -13,6 +13,7 @@ for (const container of destinationContainers) {
     container.addEventListener('click', function() {
         popupContainer.style.display = 'flex';
         hamIconMenu.style.display = 'none';
+        document.body.style.overflow = 'hidden';
         
         const place = container.id
         const placeData = jsonData["mindanao"][place]
@@ -88,6 +89,7 @@ const closeButton = popupContainer.getElementsByClassName('closeButton')[0];
 
 closeButton.addEventListener('click', function() {
     popupContainer.style.display = 'none';
+    document.body.style.overflow = 'scroll';
 });
 
 const hamButton = document.getElementById('hamButton');

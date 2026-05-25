@@ -36,11 +36,11 @@
 
         <div class="hamIconMenu" id="hamMenu" style="display: none; list-style-type: none;">
             <div class="menuList">
-                <a href="#home">Home</a>
-                <a href="#about-us">About</a>
-                <a href="#destinations">Destinations</a>
-                <a href="#contact-us">Contact</a>
-                <a href="./login.html" class="homePageBtn">Sign In</a>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about-us">About</a></li>
+                <li><a href="#destinations">Destinations</a></li>
+                <li><a href="#contact-us">Contact</a></li>
+                <li><a href="./login.html" class="homePageBtn">Sign In</a></li>
             </div>
         </div>
         
@@ -55,10 +55,48 @@
                     </p>
                     <button id="descBtn">
                         <span>
-                            <a style="font-weight: bold; text-decoration: none; color: white;" href="#destinations"> 
+                            <a style="font-weight: bold; text-decoration: none; color: white;"> 
                             ✈︎ START YOUR ADVENTURE ✈︎</a>
                         </span>
                     </button>
+                </div>
+            </div>
+
+            <!-- Dark overlay behind homeDesc -->
+            <div class="homeDesc-overlay" id="homeDescOverlay" style="display: none;"></div>
+
+            <div class="homeDesc" id="homeDesc" style="display: none;">
+                <!-- Close button fixed top-right of screen -->
+
+                <div class="homeDesc-content">
+                    <div class="closeButtonHome">
+                        <button><p><strong>X</strong></p></button>
+                    </div>
+
+                    <div class="pickHome">
+                        <h2>THREE MAIN REGIONS</h2>
+                        <p>These are the Philippines' three main regions. Each has a distinctive biodiversity, an incredible geography, and stunning landscapes. Explore different locations from three main group of islands.</p>
+                    </div>
+                    
+                    <div class="main-cardHome">
+                        <div class="luzonHome" id="homeluzon">
+                            <img src="./img/main island/luzon.jpg" loading="lazy">
+                            <h3>Luzon</h3>
+                            <p>The largest and most important island of the Philippines. Located on the northern part of the Philippine archipelago, it is bounded by the Philippine Sea, Sibuyan Sea, and the West Philippine Sea.</p>
+                        </div>
+
+                        <div class="visayasHome" id="homevisayas">
+                            <img src="./img/main island/visayas.jpg" loading="lazy">
+                            <h3>Visayas</h3>
+                            <p>Consists of seven large and several hundred smaller islands clustered around the Visayan, Samar, and Camotes seas. The seven main islands are Bohol, Cebu, Leyte, Masbate, Negros, Panay, and Samar.</p>
+                        </div>
+
+                        <div class="mindanaoHome" id="homemindanao">
+                            <img src="./img/main island/mindanao.jpg" loading="lazy">
+                            <h3>Mindanao</h3>
+                            <p>The second largest in the Philippines, in the southern part of the archipelago, surrounded by the Bohol, Celebes, and Sulu seas. It also has the largest concentration of ethnic minorities in the Philippines.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
 
@@ -138,7 +176,7 @@
                         <br>
                         We hope that by providing information that can inspire you to travel and enjoy nature, and get to be part of your memorable experiences.
                     </p>
-                    <img src="./img/about us/about-us.jpg" alt="mission">
+                    <img src="./img/about us/about-us.jpg" alt="mission" loading="lazy">
                 </div>
             </div>
 
@@ -148,7 +186,7 @@
                     <p>
                         Help explorers have memorable trips by giving them easy-to-understand about the best places in the Philippines.
                     </p>
-                    <img src="./img/about us/mission.jpg" alt="mission">
+                    <img src="./img/about us/mission.jpg" alt="mission" loading="lazy">
                 </div>
 
                 <div class="vision">
@@ -156,7 +194,7 @@
                     <p>
                     We want to be a travel guide site that encourages people to visit the Philippines and enjoy its natural beauty and culture.
                     </p>
-                    <img src="./img/about us/vision.jpg" alt="vision">
+                    <img src="./img/about us/vision.jpg" alt="vision" loading="lazy">
                 </div>
             </div>
         </section>
@@ -180,7 +218,7 @@
 
                 <div data-aos="zoom-in">
                     <div class="luzon" id="luzon">
-                        <img src="./img/main island/luzon.jpg">
+                        <img src="./img/main island/luzon.jpg" loading="lazy">
                         <h3>Luzon</h3>
                         <p>The largest and most important island of the Philippines. Located on the northern part of the Philippine archipelago, it is bounded by the Philippine Sea, Sibuyan Sea, and the West Philippine Sea.</p>
                     </div>
@@ -188,7 +226,7 @@
 
                 <div data-aos="zoom-in">
                     <div class="visayas" id="visayas">
-                        <img src="./img/main island/visayas.jpg">
+                        <img src="./img/main island/visayas.jpg" loading="lazy">
                         <h3>Visayas</h3>
                         <p>Consists of seven large and several hundred smaller islands clustered around the Visayan, Samar, and Camotes seas. The seven main islands are Bohol, Cebu, Leyte, Masbate, Negros, Panay, and Samar.</p>
                     </div>
@@ -196,7 +234,7 @@
 
                 <div data-aos="zoom-in">
                     <div class="mindanao" id="mindanao">
-                        <img src="./img/main island/mindanao.jpg">
+                        <img src="./img/main island/mindanao.jpg" loading="lazy">
                         <h3>Mindanao</h3>
                         <p>The second largest in the Philippines, in the southern part of the archipelago, surrounded by the Bohol, Celebes, and Sulu seas. It also has the largest concentration of ethnic minorities in the Philippines.</p>
                     </div>

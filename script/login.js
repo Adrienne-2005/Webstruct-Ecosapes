@@ -1,29 +1,18 @@
-document.addEventListener('DOMContentLoaded', () => {
-    const loginForm = document.getElementById('loginForm');
-    const submitBtn = document.querySelector('.submit-btn');
+const loginForm = document.getElementsByClassName('form-input');
+const submitBtn = document.getElementById('submit-btn');
 
-    loginForm.addEventListener('submit', function(event) {
-        // 1. Prevent standard browser form reload
-        event.preventDefault(); 
-        
-        // 2. Extract values from fields
-        const email = document.getElementById('email').value;
-        const password = document.getElementById('password').value;
-        const remember = document.getElementById('remember').checked;
+submitBtn.addEventListener('click', function() {
+    const textInt = document.getElementById('text');
+    const passInt = document.getElementById('password');
 
-        // 3. Simple log display (Replace this with your actual database/API login call)
-        console.log('Sending login credentials...', { email, password, remember });
-        
-        // 4. Provide visual feedback on successful click interaction
-        submitBtn.textContent = 'Signing in...';
-        submitBtn.style.background = '#22c55e'; // Shifts color to green dynamically
-        
-        setTimeout(() => {
-            alert(`Logged in with: ${email}`);
-            
-            // Reset button to normal state
-            submitBtn.textContent = 'Sign in';
-            submitBtn.style.background = '#4f46e5';
-        }, 800);
-    });
+    if (textInt.value.trim() == "") {
+        return;
+    }
+    
+    if (passInt.value.trim() == "") {
+        return;
+    }
+
+    window.location.href = '/index.html';
+    alert("Sign in successful!");
 });

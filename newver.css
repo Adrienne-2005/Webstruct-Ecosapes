@@ -61,18 +61,21 @@
 }
 
 html {
-    scroll-behavior: auto;
+    scroll-behavior: smooth;
 }
 
 body {
     font-family: 'Poppins', sans-serif;
     color: whitesmoke;
-    background-color: #001b2c;
+    background-color: #042337;
 }
 
 /* HOME SECTION */
 .home {
     background: url(./img/bgproject.jpg) center center/cover no-repeat;
+    background-attachment: fixed;
+    box-shadow: 0 8px 40px rgba(2, 36, 58, 0.45);
+    
     width: 100%;
     min-height: 100vh;
 
@@ -100,7 +103,6 @@ body {
 .left {
     width: 50%;
     height: 50%;
-
     padding: 2%;
     text-align: center;
     
@@ -109,9 +111,9 @@ body {
     -webkit-backdrop-filter: blur(7.5px);
     border: 2px solid rgb(163, 185, 192);
 
-    border-radius: 25px;
+    border-radius: clamp(0.75rem, 0.587rem + 0.81vw, 1.563rem);
 
-    margin: clamp(1rem, 0.455rem + 2.73vw, 2.5rem) 0 0 0;
+    margin: clamp(1rem, -0.364rem + 6.82vw, 4rem) 0 0 0;
     z-index: 2;
 }
 
@@ -144,7 +146,7 @@ body {
 
 #descBtn {
     padding: 2.5% 5%;
-    border-radius: 20px;
+    border-radius: clamp(0.938rem, 0.875rem + 0.31vw, 1.25rem);
     border: 2px solid rgb(183, 198, 205);
 
     background: rgba(39, 105, 175, 0.1);
@@ -168,6 +170,228 @@ body {
     background: rgba(255, 255, 255, 0.544);
     color:black;
 }
+
+/* Start your adventure*/
+
+.homeDesc-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(2, 23, 37, 0.562);
+    z-index: 90;
+    backdrop-filter: blur(0.5px);
+}
+
+.homeDesc {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 91;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    overflow-y: auto;
+}
+
+/* homeDesc-content sits above the overlay */
+.homeDesc-content {
+    position: relative;
+    z-index: 100;
+    background: rgba(3, 37, 55, 0.774);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 2px solid rgba(142, 156, 160, 0.714);
+    border-radius: 20px;
+
+    width: clamp(17.5rem, 87.5vw, 105rem);
+    margin: 5vh auto 5vh auto;
+    padding: 1.5%;
+    box-sizing: border-box;
+}
+
+/* Close button pinned to top-right of screen */
+.closeButtonHome {
+    position: fixed;
+    top: 1.5rem;
+    right: 1.5rem;
+    z-index: 200;
+}
+
+.closeButtonHome button {
+    width: clamp(2rem, 1.5rem + 2.5vw, 3.5rem);
+    height: clamp(2rem, 1.5rem + 2.5vw, 3.5rem);
+    font-size: clamp(0.9rem, 0.6rem + 1.5vw, 1.8rem);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+
+    cursor: pointer;
+    background: transparent;
+    border: 2px solid rgba(142, 156, 160, 0.8);
+    border-radius: 8px;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s ease-out;
+    padding: 0;
+}
+
+.closeButtonHome button:hover {
+    background-color: #b5273a;
+    color: whitesmoke;
+    transform: scale(1.1);
+}
+
+/* .pickHome mirrors .pick layout */
+.pickHome {
+    margin: 6%;
+}
+
+.pickHome h2 {
+    font-size: clamp(2rem, 1rem + 5vw, 7rem);
+    font-weight: 800;
+}
+
+.pickHome p {
+    font-size: clamp(0.75rem, 0.6rem + 0.75vw, 1.5rem);
+    margin: 0 0 0 5%;
+    color: #8ea7bc;
+}
+
+/* .main-cardHome mirrors .main-card layout */
+.main-cardHome {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5%;
+    width: 100%;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    box-sizing: border-box;
+}
+
+@media only screen and (min-width: 769px) {
+    .main-cardHome {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        align-items: stretch;
+    }
+}
+
+.luzonHome,
+.visayasHome,
+.mindanaoHome {
+    width: 100%;
+    height: auto;
+    
+    background-color: transparent;
+    border-radius: 10px;
+    padding: 8%;
+    box-shadow: 0 8px 8px rgba(2, 22, 34, 0.29);
+    backdrop-filter: blur(4.5px);
+    -webkit-backdrop-filter: blur(4.5px);
+    border: 2px solid rgba(137, 162, 179, 0.878);
+
+    border-radius: 40px;
+    box-shadow: 0 4px 8px rgba(3, 5, 52, 0.54);
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+
+    margin-bottom: 25%;
+
+    transition: 0.3s ease-in-out;
+}
+
+.luzonHome:hover, .visayasHome:hover, .mindanaoHome:hover {
+    transform: scale(1.025);
+    box-shadow: 0 0 40px rgba(1, 87, 102, 0.9);
+
+}
+
+.main-cardHome img {
+    width: 100%;
+    height: clamp(10rem, 7rem + 15vw, 25rem);
+    display: block;
+    margin: 0 auto;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 20px;
+}
+
+.main-cardHome h3 {
+    position: relative;
+    z-index: 2;
+    font-size: clamp(2rem, 0.998rem + 2.09vw, 3.5rem);
+    text-align: center;
+    color: whitesmoke;
+}
+
+.main-cardHome p {
+    position: relative;
+    z-index: 2;
+    margin: auto;
+    padding: 0 6px;
+    font-size: clamp(0.65rem, 0.56rem + 0.45vw, 1.1rem);
+    text-align: center;
+    color: whitesmoke;
+    overflow-wrap: break-word;
+    white-space: normal;
+    color: #8ea7bc;
+}
+
+@media only screen and (max-width: 768px) {
+    .homeDesc-content {
+        margin-top: clamp(4.75rem, 3.857rem + 4.46vw, 6rem);
+    }
+
+    .main-cardHome {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 7.5%;
+        margin: 5% 0 3% 0;
+    }
+
+    .pickHome h2 {
+        font-size: clamp(2.5rem, 0.714rem + 8.93vw, 5rem);
+        padding-top: clamp(1.75rem, 1.571rem + 0.89vw, 2rem);
+    }
+
+    .pickHome p {
+        font-size: clamp(0.8rem, 0.586rem + 1.07vw, 1.1rem);
+        margin: 5% 0 2% 0;
+    }
+
+    .luzonHome,
+    .visayasHome,
+    .mindanaoHome {
+        margin: auto;
+        width: 90%;
+        height: 100%;
+        padding: 4%;
+        border-radius: clamp(1.25rem, 0.795rem + 2.27vw, 2.5rem);
+
+        margin-bottom: 10%;
+    }
+
+    .main-cardHome img {
+        border-radius: clamp(0.625rem, 0.17rem + 2.27vw, 1.875rem);
+    }
+
+    .main-cardHome h3 {
+        font-size: clamp(2.25rem, 1.714rem + 2.68vw, 3rem);
+    }
+
+    .main-cardHome p {
+        font-size: clamp(0.7rem, 0.486rem + 1.07vw, 1rem);
+    }
+}
+
+
 
 .right {
     width: 50%;
@@ -197,7 +421,7 @@ body {
     height: clamp(1.5rem, 0.8rem + 3.5vw, 5rem);
 
     padding: clamp(0.7rem, 0.64rem + 0.3vw, 1rem);
-    border-radius: 20px;
+    border-radius: clamp(0.938rem, 0.875rem + 0.31vw, 1.25rem);
     border: 1px solid rgba(255,255,255,0.6);
 
     margin-top: 1rem;
@@ -206,7 +430,7 @@ body {
 
 .search-bar input::placeholder {
     color: whitesmoke;
-    font-size: 1rem;
+    font-size: clamp(0.7rem, 0.64rem + 0.3vw, 1rem);
 }
 
 .slides {
@@ -214,6 +438,15 @@ body {
     overflow: hidden;
     position: relative;
     margin: 2rem 0;
+
+    mask: linear-gradient(to right, transparent 0%, black 5%, black 95%, transparent 100%);
+    -webkit-mask: linear-gradient(to right, transparent 0%, black 5%, black 95%, transparent 100%);
+    mask-size: contain;
+    -webkit-mask-size: contain;
+    mask-position: center;
+    -webkit-mask-position: center;
+    mask-repeat: no-repeat;
+    -webkit-mask-repeat: no-repeat;;
 }
 
 .cards-track {
@@ -246,14 +479,14 @@ body {
     border: 2px solid rgb(142, 156, 160);
 
     padding: 20px;
-    border-radius: 30px;
+    border-radius: clamp(0.938rem, 0.75rem + 0.94vw, 1.875rem);
 }
 
 .cards-track img {
     width: 100%;
     height: clamp(15rem, 16.67vw, 20rem);
     object-fit: cover;
-    border-radius: 25px;
+    border-radius: clamp(0.5rem, 0.36rem + 0.7vw, 1.2rem);
 }
 
 .cards-track h3 {
@@ -551,7 +784,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 28, 46, 0.456);
+    background-color: rgba(0, 28, 46, 0.661);
     z-index: 0;
 }
 
@@ -562,6 +795,9 @@ body {
 
 .dtnt-head {
     background: url(./img/destinationheadBG.jpg) center center/cover no-repeat;
+    background-attachment: fixed;
+    box-shadow: 40px 8px 40px rgba(2, 36, 58, 0.45);
+
     width: 100%;
     padding: 5% 7% 5% 7%;
     position: relative;
@@ -624,6 +860,8 @@ body {
     }
 }
 
+
+
 .luzon,
 .visayas,
 .mindanao {
@@ -646,6 +884,14 @@ body {
     overflow: hidden;
 
     margin-bottom: 20%;
+
+    transition: 0.3s ease-in-out;
+}
+
+.luzon:hover, .visayas:hover, .mindanao:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 40px rgba(1, 87, 102, 0.9);
+
 }
 
 .main-card img {
@@ -734,7 +980,7 @@ body {
 /* CONTACT */
 .contact {
     width: 100%;
-    background-color: #001b2c;
+    background-color: #042337;
     color: whitesmoke;
 
     padding: 2% 5%;
@@ -742,7 +988,7 @@ body {
 }
 
 .contact h1 {
-    font-size: clamp(1.25rem, 0.614rem + 3.18vw, 3rem);
+    font-size: clamp(1.25rem, 0.6rem + 3.25vw, 4.5rem);
     margin: clamp(0.5rem, 0.409rem + 0.45vw, 0.75rem) 0 clamp(1rem, 0.818rem + 0.91vw, 1.5rem) 0;
 }
 
@@ -750,7 +996,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    gap: 3%;
+    gap: 10%;
     /*flex-wrap: wrap;*/
 }
 
@@ -770,8 +1016,8 @@ body {
 .tel img,
 .email img,
 .page img {
-    width: clamp(2.5rem, 0.864rem + 8.18vw, 7rem);
-    height: clamp(2.5rem, 0.864rem + 8.18vw, 7rem);
+    width: clamp(2.5rem, 1.3rem + 6vw, 8.5rem);
+    height: clamp(2.5rem, 1.3rem + 6vw, 8.5rem);
     margin: 0 0 0.8% 0;
 
     transition: 0.3s ease-out;
@@ -787,7 +1033,7 @@ body {
 .email h2,
 .page h2 {
     margin: 0 0 1.5% 0;
-    font-size: clamp(1rem, 0.636rem + 1.82vw, 2rem);
+    font-size: clamp(1rem, 0.5rem + 2.5vw, 3.5rem);
 }
 
 .tel-li,
@@ -796,13 +1042,13 @@ body {
     list-style: none;
     padding: 0;
     margin: 0;
-    font-size: clamp(0.5rem, 0.318rem + 0.91vw, 1rem);
+    font-size: clamp(0.5rem, 0.3rem + 1vw, 1.5rem);
     color: #8ea7bc;
 }
 
 .contact p {
     margin-top: 1.25rem;
-    font-size: clamp(0.35rem, 0.114rem + 1.18vw, 1rem);
+    font-size: clamp(0.35rem, 0.12rem + 1.15vw, 1.5rem);
 }
 
 
@@ -994,7 +1240,10 @@ body {
     object-fit: cover;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     background-image: url('./img/luzon/luzon-mainbg.jpg');
+    box-shadow: 0 8px 40px rgba(9, 69, 106, 0.45);
+    
     width: 100%;
     height: 76%;
     position: relative;
@@ -1051,7 +1300,7 @@ body {
 }
 
 .plainBG {
-    background-color: #103942;
+    background-color: #103342;
     text-align: left;
 }
 
@@ -1151,11 +1400,6 @@ body {
 
     .color-overlay {
         width: 93%;
-    }
-}
-
-@media only screen and (max-width: 1385px){
-    .findYourself {
     }
 }
 
@@ -1266,14 +1510,14 @@ body {
 }
 
 .popup-content{
-    background: rgba(3, 56, 72, 0.585);
+    background: rgba(3, 39, 55, 0.62);
     backdrop-filter: blur(7.5px);
     -webkit-backdrop-filter: blur(7.5px);
     border: 2px solid rgb(142, 156, 160);
 
     padding: 2% 5% 5% 5%;
     border-radius: 20px;
-    width: clamp(21rem, 10.455rem + 52.73vw, 50rem);
+    width: clamp(21rem, 11.2rem + 49vw, 70rem);
     max-height: 90vh;
 
     text-align: left;
@@ -1291,7 +1535,7 @@ body {
 
 .img-main-hd img {
     width: 100%;
-    height: clamp(15rem, 11rem + 20vw, 26rem);
+    height: clamp(13rem, 9rem + 20vw, 33rem);
     object-fit: cover;
     border-radius: 10px;
     display: block;
@@ -1309,15 +1553,19 @@ body {
 }
 
 .popup-content button {
-    width: clamp(1rem, 0.455rem + 2.73vw, 2.5rem);
-    height: clamp(1rem, 0.455rem + 2.73vw, 2.5rem);
-    font-size: clamp(1rem, 0.636rem + 1.82vw, 2rem);
+    width: clamp(1rem, 0.5rem + 2.5vw, 3.5rem);
+    height: clamp(1rem, 0.5rem + 2.5vw, 3.5rem);
+    font-size: clamp(1rem, 0.6rem + 2vw, 3rem);
     cursor: pointer;
-    box-shadow: 0 8px 8px rgba(2, 22, 34, 0.29);
+    
+    background: rgba(3, 39, 55, 0.62);
+    backdrop-filter: blur(7.5px);
+    -webkit-backdrop-filter: blur(7.5px);
+    border: 2px solid rgb(198, 212, 215);
+    color: whitesmoke;
 
-    border: none;
     border-radius: clamp(0.125rem, -0.057rem + 0.91vw, 0.625rem);
-    padding: 0;
+    padding: 3%;
 
     transition: 0.3s ease-out;
 
@@ -1342,30 +1590,30 @@ body {
 }
 
 .popup-content h1 {
-    font-size: clamp(2rem, 1.455rem + 2.73vw, 3.5rem);
+    font-size: clamp(2rem, 1.2rem + 4vw, 6rem);
     margin-bottom: 8%;
 }
 
 .loc-bio h3 {
     margin: 3% 3% 2% 3%;
-    font-size: clamp(1.1rem, 0.955rem + 0.73vw, 1.5rem);
+    font-size: clamp(1.1rem, 0.67rem + 2.15vw, 3.25rem);
 }
 
 .loc-bio h2, .loc-img h2{
     margin: 2% 3% 2% 3%;
-    font-size: clamp(1.7rem, 1.409rem + 1.45vw, 2.5rem);
+    font-size: clamp(1.7rem, 0.99rem + 3.55vw, 5.25rem);
 }
 
 .loc-bio p, .loc-img p {
     margin: 1% 5% 4% 5%;
     color: #8ea7bc;
-    font-size: clamp(0.55rem, 0.386rem + 0.82vw, 1rem);
+    font-size: clamp(0.5rem, 0.28rem + 1.1vw, 1.6rem);
 }
 
 .loc-bio li {
     margin: 5px 7% 0px 7%;
     color: #8ea7bc;
-    font-size: clamp(0.55rem, 0.386rem + 0.82vw, 1rem);
+    font-size: clamp(0.5rem, 0.28rem + 1.1vw, 1.6rem);
 }
 
 .loc-bio {
@@ -1419,76 +1667,87 @@ body {
 
 
 /* LOGIN BUTTON */
+
 /* Card Container */
-.login-card {
-    background: #ffffff;
+.login-parent {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
     width: 100%;
-    max-width: 400px;
-    padding: 40px 30px;
-    border-radius: 12px;
-    box-shadow: 0 8px 24px rgba(149, 157, 165, 0.2);
+    position: relative;
+
+    margin: clamp(7.5rem, 6.8rem + 3.5vw, 11rem) auto 12% auto;
+}
+
+.bgLogin {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('./img/loginBG.jpg') center/cover no-repeat;
+    z-index: 0;
+    opacity: 0.20;
+    pointer-events: none;
+}
+
+.login-card {
+    background: rgba(3, 36, 55, 0.511);
+    backdrop-filter: blur(7.5px);
+    -webkit-backdrop-filter: blur(7.5px);
+    border: 2px solid rgba(142, 156, 160, 0.714);
+
+    width: clamp(16rem, 11.2rem + 24vw, 40rem);
+    padding: clamp(1.25rem, 0.95rem + 1.5vw, 2.75rem);
+    border-radius: clamp(1.25rem, 0.9rem + 1.75vw, 3rem);
+    box-shadow: 0 10px 8px rgba(2, 22, 35, 0.561);
+
+    position: relative;
+    z-index: 1;
 }
 
 .login-header {
     text-align: center;
-    margin-bottom: 32px;
+    margin: 5% 0 5% 0;
 }
 
 .login-header h2 {
-    color: #1a1a1a;
-    font-size: 28px;
-    font-weight: 700;
+    font-size: clamp(3rem, 2.35rem + 3.25vw, 6.25rem);
+    font-weight: 800;
     margin-bottom: 8px;
 }
 
-.login-header p {
-    color: #666666;
-    font-size: 14px;
+.form-group input::placeholder {
+    color: #d1efee8b;
 }
 
 /* Form Controls & Floating Labels */
 .form-group {
     position: relative;
-    margin-bottom: 24px;
+    margin-bottom: 4%;
+}
+
+.form-group h3 {
+    margin: clamp(1rem, 1.4rem + 0.5vw, 2rem) 0 clamp(0.5rem, 0.4rem + 0.5vw, 1rem) 0 ;
+    font-size: clamp(1rem, 0.9rem + 0.5vw, 1.5rem);
 }
 
 .form-input {
     width: 100%;
+    height: clamp(1.3rem, 0.86rem + 2.2vw, 4rem);
+
     padding: 14px 16px;
-    border: 1px solid #e0e0e0;
-    border-radius: 8px;
-    font-size: 16px;
-    color: #1a1a1a;
-    outline: none;
+    border: 1px solid #cbe4ef;
+    border-radius: clamp(0.5rem, 0.4rem + 0.5vw, 1rem);
+    font-size: clamp(0.5rem, 0.227rem + 1.36vw, 1.25rem);
     background: transparent;
     transition: all 0.2s ease;
+    color: #ecf8f7;
 }
 
 .form-input:focus {
-    border-color: #4f46e5;
-    box-shadow: 0 0 0 4px rgba(79, 70, 229, 0.1);
-}
-
-.form-label {
-    position: absolute;
-    left: 16px;
-    top: 50%;
-    transform: translateY(-50%);
-    background: #ffffff;
-    padding: 0 4px;
-    color: #888888;
-    font-size: 16px;
-    pointer-events: none;
-    transition: all 0.2s ease;
-}
-
-/* When input is focused or contains text, move label up */
-.form-input:focus ~ .form-label,
-.form-input:not(:placeholder-shown) ~ .form-label {
-    top: 0;
-    font-size: 12px;
-    color: #4f46e5;
-    font-weight: 500;
+    border-color: #aacdef;
 }
 
 /* Utilities */
@@ -1496,25 +1755,25 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 24px;
-    font-size: 14px;
+    margin: 10% 0 5% 0;
+    font-size: clamp(0.55rem, 0.41rem + 0.7vw, 1.25rem);
 }
 
 .remember-me {
     display: flex;
     align-items: center;
     gap: 8px;
-    color: #444444;
     cursor: pointer;
 }
 
 .remember-me input {
-    accent-color: #4f46e5;
+    accent-color: #7ed8e8;
     cursor: pointer;
+    outline: none;
 }
 
 .forgot-link {
-    color: #4f46e5;
+    color: #4cdbe0;
     text-decoration: none;
     font-weight: 500;
 }
@@ -1525,20 +1784,22 @@ body {
 
 /* Primary Button */
 .submit-btn {
-    width: 100%;
-    padding: 14px;
-    background: #4f46e5;
+
+    width: 75%;
+    padding: 3%;
+    background: #3bc6c2;
     color: #ffffff;
     border: none;
     border-radius: 8px;
-    font-size: 16px;
+    font-size: clamp(1rem, 0.78rem + 1.1vw, 2.1rem);
     font-weight: 600;
     cursor: pointer;
-    transition: background 0.2s ease, transform 0.1s ease;
+    margin: 5% auto 0 12%;
+    transition: 0.2s ease, transform 0.1s ease;
 }
 
 .submit-btn:hover {
-    background: #4338ca;
+    background: #67efe6;
 }
 
 .submit-btn:active {
@@ -1549,12 +1810,11 @@ body {
 .login-footer {
     text-align: center;
     margin-top: 24px;
-    font-size: 14px;
-    color: #666666;
+    font-size: clamp(0.6rem, 0.47rem + 0.65vw, 1.25rem);
 }
 
 .signup-link {
-    color: #4f46e5;
+    color: #46e5da;
     text-decoration: none;
     font-weight: 500;
 }
@@ -1562,4 +1822,3 @@ body {
 .signup-link:hover {
     text-decoration: underline;
 }
-
