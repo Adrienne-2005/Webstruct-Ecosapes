@@ -203,8 +203,214 @@
                 "./img/luzon/pagsanjanimg/pagsanjan3.jpeg",
                 "./img/luzon/pagsanjanimg/pagsanjan4.jpeg"
             ]
-        }
+        },
 
+        "taal": { 
+            "img-main-hd": "./img/luzon/taal.jpg",
+            "title": "Taal Lake",
+            "location": "Surrounding the municipalities of Talisay, Laurel, Agoncillo, San Nicolas, Balete, Mataasnakahoy, Cuenca, Alitagtag, Tanauan, Lipa, Malvar, and Sta. Teresita, Batangas",
+            "explore": {
+                "Expressway:": "From Manila via SLEX and STAR Tollway going to Tagaytay Ridge",
+                "Tanauan–Talisay Road:": "From Batangas City through Tanauan–Talisay Road",
+                "Via PITX:": "Public bus from PITX to Tagaytay then jeepney or tricycle to Talisay"
+            },
+            "recommended": "November to February for cooler weather and clearer lake views",
+            "requirement": "Valid ID, Extra clothes and water, boat fare budget if visiting Volcano Island and weather monitoring for volcanic activity alerts",
+            "description": [
+                "Taal Lake is one of the most famous volcanic lakes in the Philippines and surrounds the iconic Taal Volcano. The lake was formed by prehistoric eruptions and is known for its scenic beauty, calm waters, and panoramic viewpoints from Tagaytay.",
+                "Visitors can enjoy boating, sightseeing, lakeside dining, and photography while appreciating the unique geography of a volcano within a lake. The surrounding communities also offer cultural experiences and local delicacies such as tawilis and bulalo."
+            ],
+            "img-sets": [
+                "./img/luzon/taalimg/taal1.jpg" ,
+                "./img/luzon/taalimg/taal2.jpg" ,
+                "./img/luzon/taalimg/taal3.jpg" ,
+                "./img/luzon/taalimg/taal4.jpg"
+            ]
+        },
+
+        "balite": { 
+            "img-main-hd": "./img/luzon/balite.jpg",
+            "title": "Balite Falls",
+            "location": "Barangay Halang, Amadeo, Cavite",
+            "explore": {
+                "Aguinaldo Hwy:": "Drive from Manila through Aguinaldo Highway to Amadeo",
+                "PITX:": "Bus from PITX to Tagaytay then jeepney to Amadeo",
+                "Private route:": "Private motorcycle route via Dasmariñas–Indang Road"
+            },
+            "recommended": "Dry season from December to May",
+            "requirement": "Entrance fee, food and water supplies and swimming materials",
+            "description": [
+                "Balite Falls is a refreshing natural waterfall destination surrounded by greenery and cool flowing water. The area is popular among families and travelers looking for a quick nature getaway near Metro Manila.",
+                "The waterfall has natural pools suitable for swimming and relaxing. The peaceful environment and shaded surroundings make it ideal for picnics, bonding activities, and weekend outings."
+            ],
+            "img-sets": [
+                "./img/luzon/baliteimg/balite1.jpg" ,
+                "./img/luzon/baliteimg/balite2.jpg" ,
+                "./img/luzon/baliteimg/balite3.jpg" ,
+                "./img/luzon/baliteimg/balite4.jpg"
+            ]
+        },
+
+        "isarog": { 
+            "img-main-hd": "./img/luzon/isarog.jpg",
+            "title": "Mount Isarog",
+            "location": "Spans the municipalities/cities of Goa, Ocampo, Pili, Naga City, Calabanga, and Tinambac, Camarines Sur; main jump-off often via Barangay Panicuason, Naga City",
+            "explore": {
+                "Van:": "Fly to Naga City then travel by van to the jump-off point",
+                "Bus:": "Bus from Manila to Naga then jeepney to Goa or Pili",
+                "Private tour": "Private vehicle through Maharlika Highway to Camarines Sur"
+            },
+            "recommended": "January to May for safer trekking conditions",
+            "requirement": "Must have registration with local tourism office, local guide, hiking gear and enough quipments",
+            "description": [
+                "Mount Isarog is a dormant stratovolcano and protected natural park in Camarines Sur. It is known for its lush forests, rich biodiversity, waterfalls, and cool mountain climate.",
+                "The mountain is a favorite destination for hikers and eco-tourists because of its challenging trails and scenic landscapes. Rare flora and fauna can also be found in the area, making it important for conservation and research."
+            ],
+            "img-sets": [
+                "./img/luzon/isarogimg/isarog1.jpg" ,
+                "./img/luzon/isarogimg/isarog2.jpg" ,
+                "./img/luzon/isarogimg/isarog3.jpg" ,
+                "./img/luzon/isarogimg/isarog4.jpg"
+            ]
+        },
+
+        "minalungao": { 
+            "img-main-hd": "./img/luzon/minalungao.jpg",
+            "title": "Minalungao National Park",
+            "location": "Barangay Pias, General Tinio, Nueva Ecija",
+            "explore": {
+                "Drive:": "Drive from Manila through SCTEX and Gapan",
+                "Bus:": "Bus to Cabanatuan then jeepney to General Tinio",
+                "Motor rides:": "Motorcycle ride through Nueva Ecija countryside routes"
+            },
+            "recommended": "December to April",
+            "requirement": "Entrance fee, food and water supplies and swimming materials",
+            "description": [
+                "Minalungao National Park is famous for its emerald-green river surrounded by towering limestone cliffs. The natural scenery offers a peaceful escape from urban life and is ideal for outdoor activities.",
+                "Visitors can enjoy bamboo rafting, cliff jumping, swimming, and hiking. The park’s crystal-clear river and dramatic rock formations make it one of Nueva Ecija’s most visited natural attractions."
+            ],
+            "img-sets": [
+                "./img/luzon/minalungaoimg/minalungao1.jpg" ,
+                "./img/luzon/minalungaoimg/minalungao2.jpg" ,
+                "./img/luzon/minalungaoimg/minalungao3.jpg" ,
+                "./img/luzon/minalungaoimg/minalungao4.jpg"
+            ]
+        },
+
+        "apao": { 
+            "img-main-hd": "./img/luzon/apao.jpg",
+            "title": "Apao Rolling Hills",
+            "location": "Barangay Apao within the remote, northernmost municipality of Tineg, Abra",
+            "explore": {
+                "Bus:": "Bus from Manila to Sagada via Banaue.",
+                "Private tour:": "Private car through Halsema Highway.",
+                "Van:": "Van transfer from Baguio City to Sagada."
+            },
+            "recommended": "November to February",
+            "requirement": "Hiking equiment and local guide if exploring nearby trails",
+            "description": [
+                "Apao Rolling Hills features vast grassy landscapes and scenic mountain views that resemble the famous hills of Batanes. The peaceful environment and cool climate make it attractive for camping and sightseeing.",
+                "The hills provide stunning sunrise and sunset views, especially during foggy mornings. Travelers often visit the area to relax, take photographs, and experience the calm atmosphere of the Cordillera region."
+            ],
+            "img-sets": [
+                "./img/luzon/apaoimg/apao1.jpg" ,
+                "./img/luzon/apaoimg/apao2.jpg" ,
+                "./img/luzon/apaoimg/apao3.jpg" ,
+                "./img/luzon/apaoimg/apao4.jpg"
+            ]
+        },
+
+        "maniwaya": { 
+            "img-main-hd": "./img/luzon/maniwaya.jpg",
+            "title": "Maniwaya Island",
+            "location": "Barangay Maniwaya, Santa Cruz, Marinduque",
+            "explore": {
+                "Bus:": "Bus from Manila to Lucena then ferry to Marinduque.",
+                "Airport:": "Flight to Marinduque then boat transfer.",
+                "Port:": "Private vehicle to General Luna Port followed by boat ride."
+            },
+            "recommended": "March to May",
+            "requirement": "Reservation for resorts or cottages, Local ID and Beach essentials ",
+            "description": [
+                "Maniwaya Island is known for its white sand beaches, turquoise waters, and laid-back island atmosphere. It is one of Marinduque’s top island destinations for beach lovers and weekend travelers.",
+                "Visitors can enjoy island hopping, snorkeling, swimming, and relaxing by the shore. The island also features sandbars and beautiful sunsets that attract photographers and nature enthusiasts."
+            ],
+            "img-sets": [
+                "./img/luzon/maniwayaimg/maniwaya1.jpg" ,
+                "./img/luzon/maniwayaimg/maniwaya2.jpg" ,
+                "./img/luzon/maniwayaimg/maniwaya3.jpg" ,
+                "./img/luzon/maniwayaimg/maniwaya4.jpg"
+            ]
+        },
+
+        "tubbataha": { 
+            "img-main-hd": "./img/luzon/tubbataha.jpg",
+            "title": "Tubbataha Reefs",
+            "location": "Sulu Sea, under jurisdiction of Cagayancillo, Palawan",
+            "explore": {
+                "Tour guide:": "Fly to Puerto Princesa then join a liveaboard diving tour",
+                "Expedition:": "Chartered dive expedition from Palawan",
+                "Organization:": "Organized eco-tour packages from Puerto Princesa City"
+            },
+            "recommended": "March to June",
+            "requirement": "Diving certification for scuba activities, advance booking for liveaboard tours, environmental fee and safety diving equipment ",
+            "description": [
+                "Tubbataha Reefs is a UNESCO World Heritage Site recognized for its exceptional marine biodiversity and pristine coral reef ecosystems. It is considered one of the best diving destinations in the world.",
+                "The protected marine park is home to sharks, sea turtles, manta rays, and hundreds of fish species. Due to its remote location, access is limited and carefully managed to preserve its ecological importance."
+            ],
+            "img-sets": [
+                "./img/luzon/tubbatahaimg/tubbataha1.jpg",
+                "./img/luzon/tubbatahaimg/tubbataha2.jpg",
+                "./img/luzon/tubbatahaimg/tubbataha3.jpg",
+                "./img/luzon/tubbatahaimg/tubbataha4.jpg"
+            ]
+        },
+
+        "banahaw": { 
+            "img-main-hd": "./img/luzon/banahaw.jpg",
+            "title": "Mount Banahaw",
+            "location": "Border of Majayjay, Laguna and Lucban/Sariaya, Quezon",
+            "explore": {
+                "SLEX:": "Drive from Manila via SLEX to Lucban",
+                "Bus:": "Bus from Manila to Lucena then jeepney to jump-off points",
+                "Private tour:": "Private motorcycle route through Laguna towns."
+            },
+            "recommended": "January to April",
+            "requirement": "Hiking permit, local guide, trekking gear and respect for sacred sites and local customs",
+            "description": [
+                "Mount Banahaw is a dormant volcano considered a sacred mountain by many Filipinos. It attracts pilgrims, spiritual seekers, and hikers because of its religious significance and natural beauty.",
+                "The mountain features dense forests, rivers, caves, and waterfalls. Its cool climate and spiritual atmosphere create a unique experience that combines adventure and cultural heritage."
+            ],
+            "img-sets": [
+                "./img/luzon/banahawimg/banahaw1.jpg",
+                "./img/luzon/banahawimg/banahaw2.jpg",
+                "./img/luzon/banahawimg/banahaw3.jpg",
+                "./img/luzon/banahawimg/banahaw4.jpg"
+            ]
+        },
+
+        "ticao": { 
+            "img-main-hd": "./img/luzon/ticao.jpg",
+            "title": "Ticao Island",
+            "location": "Municipalities of San Jacinto, Monreal, and Batuan, Masbate",
+            "explore": {
+                "Aiport and Ferry:": "Flight to Masbate City then ferry to Ticao Island",
+                "Bus and Ferry:": "Bus from Manila to Sorsogon then boat transfer",
+                "Private tour:": "Private vehicle via Bicol region ports"
+            },
+            "recommended": "March to June",
+            "requirement": "Boat transportation budget, resort reservation, and snorkeling or diving gear",
+            "description": [
+                "Ticao Island is a tropical island destination famous for diving spots, whale shark interactions, and marine biodiversity. Its waters are rich with coral reefs and unique underwater ecosystems.",
+                "The island also offers scenic beaches, fishing communities, and peaceful coastal landscapes. Travelers visit Ticao Island for eco-tourism adventures and relaxing island experiences."
+            ],
+            "img-sets": [
+                "./img/luzon/ticaoimg/ticao1.jpg",
+                "./img/luzon/ticaoimg/ticao2.jpg",
+                "./img/luzon/ticaoimg/ticao3.jpg",
+                "./img/luzon/ticaoimg/ticao4.jpg"
+            ]
+        }
     },
 
     "visayas": {
@@ -404,6 +610,208 @@
                 "./img/visayas/kalanggamanimg/kalanggaman2.jpeg",
                 "./img/visayas/kalanggamanimg/kalanggaman3.jpeg",
                 "./img/visayas/kalanggamanimg/kalanggaman4.jpeg"
+            ]
+        },
+
+        "carbin": { 
+            "img-main-hd": "./img/visayas/carbin.jpg",
+            "title": "Carbin Reef",
+            "location": "Sagay Marine Reserve off the northern coast of Sagay City, Negros Occidental",
+            "explore": {
+                "Airport:": "Fly to Iloilo City then travel to Carles Port",
+                "Bus and Ferry:": "Bus from Iloilo City to Carles followed by boat ride",
+                "Hopping:": "Join island-hopping tours in the Gigantes Islands area"
+            },
+            "recommended": "March to May",
+            "requirement": "Boat fare and environmental fee and snorkeling gear",
+            "description": [
+                "Carbin Reef is famous for its long white sandbar and crystal-clear waters. It is one of the highlights of island hopping tours around the Gigantes Islands in Iloilo.",
+                "Visitors can swim, snorkel, and relax on the sandbar while enjoying panoramic ocean views. The reef’s beauty becomes more visible during low tide when the white sand stretches across the sea."
+            ],
+            "img-sets": [
+                "./img/visayas/carbinimg/carbin1.jpg",
+                "./img/visayas/carbinimg/carbin2.jpg",
+                "./img/visayas/carbinimg/carbin3.jpg",
+                "./img/visayas/carbinimg/carbin4.jpg"
+            ]
+        },
+
+        "danjugan": { 
+            "img-main-hd": "./img/visayas/danjugan.jpg",
+            "title": "Danjugan Island",
+            "location": "Barangay Bulata, Cauayan, Negros Occidental",
+            "explore": {
+                "Aiport and Ferry:": "Fly to Bacolod City then travel to Cauayan Port",
+                "Bus and Ferry:": "Bus from Bacolod to Cauayan followed by boat transfer",
+                "Tour guide:": "Organized eco-tourism package from Negros Occidental"
+            },
+            "recommended": "November to May",
+            "requirement": "Reservation with eco-tour organizers, environmental fee and eco-friendly travel essentials",
+            "description": [
+                "Danjugan Sanctuary is a protected island reserve known for marine conservation and sustainable tourism. The island contains coral reefs, lagoons, caves, and forest habitats.",
+                "Eco-tourism activities include snorkeling, kayaking, birdwatching, and guided nature tours. Visitors are encouraged to practice responsible tourism to help preserve the island’s biodiversity."
+            ],
+            "img-sets": [
+                "./img/visayas/danjuganimg/danjugan1.jpg",
+                "./img/visayas/danjuganimg/danjugan2.jpg",
+                "./img/visayas/danjuganimg/danjugan3.jpg",
+                "./img/visayas/danjuganimg/danjugan4.jpg"
+            ]
+        },
+
+        "luho": { 
+            "img-main-hd": "./img/visayas/luho.jpg",
+            "title": "Mount Luho",
+            "location": "Boracay Island, Barangay Yapak, Malay, Aklan",
+            "explore": {
+                "Aiport and Ferry:": "Fly to Caticlan Airport then ferry to Boracay or flight to Kalibo then land transfer to Caticlan Port",
+                "Tricycle:": "E-tricycle ride from Boracay stations to Mount Luho."
+            },
+            "recommended": "November to May",
+            "requirement": "Environmental and terminal fees,and other photograph equipment",
+            "description": [
+                "Mount Luho is the highest point on Boracay Island and offers panoramic views of the island’s beaches and surrounding seas. It is one of the best spots for sightseeing and photography.",
+                "The viewpoint allows visitors to appreciate Boracay’s natural beauty from above. Many tourists visit during sunrise or sunset to enjoy the dramatic scenery and cool breeze."
+            ],
+            "img-sets": [
+                "./img/visayas/luhoimg/luho1.jpg",
+                "./img/visayas/luhoimg/luho2.jpg",
+                "./img/visayas/luhoimg/luho3.jpg",
+                "./img/visayas/luhoimg/luho4.jpg"
+            ]
+        },
+
+        "malumpati": { 
+            "img-main-hd": "./img/visayas/malumpati.jpg",
+            "title": "Malumpati Cold Spring",
+            "location": "Barangay Guia, Pandan, Antique",
+            "explore": {
+                "Airport and Van:": "Fly to Caticlan then travel by van to Pandan",
+                "Bus:": "Bus from Iloilo City to Antique Province",
+                "Private route:": "Private vehicle through Panay coastal roads"
+            },
+            "recommended": "December to May",
+            "requirement": "Entrance fee, food and water supplies and swimming materials and picnic supplies",
+            "description": [
+                "Malumpati Cold Spring is a popular freshwater attraction known for its naturally cold and clear waters. The spring is surrounded by trees and natural rock formations.",
+                "Visitors can swim, raft, and enjoy local food near the spring area. The refreshing water and relaxing environment make it ideal for family outings and nature trips."
+            ],
+            "img-sets": [
+                "./img/visayas/malumpatiimg/malumpati1.jpg",
+                "./img/visayas/malumpatiimg/malumpati2.jpg",
+                "./img/visayas/malumpatiimg/malumpati3.jpg",
+                "./img/visayas/malumpatiimg/malumpati4.jpg"
+            ]
+        },
+
+        "bucari": { 
+            "img-main-hd": "./img/visayas/bucari.jpg",
+            "title": "Bucari Pine Forest",
+            "location": "Barangays Bucari, Camandag, and Tabionan, Leon, Iloilo",
+            "explore": {
+                "Road:": "Drive from Iloilo City to Leon municipality",
+                "Public transportation:": "Public jeepney route from Iloilo to Leon or otorcycle ride through mountain roads"
+            },
+            "recommended": "November to February",
+            "requirement": "Camping gear if staying overnight and other hiking equipments",
+            "description": [
+                "Bucari Pine Forest is often called the “Little Baguio of Iloilo” because of its cool weather and pine-covered mountains. The area offers scenic landscapes and fresh mountain air.",
+                "Travelers visit Bucari for camping, trekking, and relaxation. Its peaceful environment and natural beauty make it one of Iloilo’s favorite eco-tourism destinations."
+            ],
+            "img-sets": [
+                "./img/visayas/bucariimg/bucari1.jpg",
+                "./img/visayas/bucariimg/bucari2.jpg",
+                "./img/visayas/bucariimg/bucari3.jpg",
+                "./img/visayas/bucariimg/bucari4.jpg"
+            ]
+        },
+
+        "mambucal": { 
+            "img-main-hd": "./img/visayas/mambucal.jpg",
+            "title": "Mambucal Mountain Resort",
+            "location": "Barangay Minoyan, Murcia, Negros Occidental",
+            "explore": {
+                "Vehicle:": "Drive from Bacolod City to Murcia or jeepney route from Bacolod public terminal",
+                "Tour guide:": "Tour package from Negros Occidental resorts"
+            },
+            "recommended": "November to May",
+            "requirement": "Entrance fee, food and water supplies and swimming materials",
+            "description": [
+                "Mambukal Hot Springs is a mountain resort known for its natural hot sulfur springs, waterfalls, and forest environment. The resort offers both relaxation and adventure activities.",
+                "Visitors can enjoy hot spring baths, ziplining, trekking, boating, and wildlife encounters. The cool mountain climate and natural attractions make it a popular destination in Negros Occidental."
+            ],
+            "img-sets": [
+                "./img/visayas/mambucalimg/mambucal1.jpg",
+                "./img/visayas/mambucalimg/mambucal2.jpg",
+                "./img/visayas/mambucalimg/mambucal3.jpg",
+                "./img/visayas/mambucalimg/mambucal4.jpg"
+            ]
+        },
+        
+        "cuatro": { 
+            "img-main-hd": "./img/visayas/cuatro.jpg",
+            "title": "Cuatro Islas",
+            "location": "Municipalities of Inopacan and Hindang, Leyte",
+            "explore": {
+                "Aiport and Ferry:": "Fly to Tacloban City then travel to Inopacan Port.",
+                "Boat:": "Boat tour from Leyte coastal towns or bus from Ormoc to Hindang."
+            },
+            "recommended": "March to May",
+            "requirement": "Boat fare and environmental fee and snorkeling gear",
+            "description": [
+                "Cuatro Islas is a group of four beautiful islands known for white sand beaches and clear blue waters. The islands are ideal for swimming, snorkeling, and island hopping.",
+                "The destination offers peaceful coastal scenery and rich marine life. Many visitors enjoy camping and beach picnics while exploring the different islands."
+            ],
+            "img-sets": [
+                "./img/visayas/cuatroimg/cuatro1.jpg",
+                "./img/visayas/cuatroimg/cuatro2.jpg",
+                "./img/visayas/cuatroimg/cuatro3.jpg",
+                "./img/visayas/cuatroimg/cuatro4.jpg"
+            ]
+        },
+
+        "sohor": { 
+            "img-main-hd": "./img/visayas/sohoton.jpg",
+            "title": "Sohoton Cave",
+            "location": "Barangay Guirang, Basey, Samar",
+            "explore": {
+                "Airport:": "Fly to Tacloban then cross San Juanico Bridge to Samar",
+                "Port:": "Boat and eco-tour packages within Samar Province"
+            },
+            "recommended": "December to May",
+            "requirement": "A proffesional tour guide, enviromental fee and proper equipment",
+            "description": [
+                "Sohoton Cave is famous for its impressive limestone formations, underground chambers, and natural bridge. The cave system showcases Samar’s rich geological beauty.",
+                "Visitors can explore cave passages, rivers, and rock formations while learning about the area’s natural history. Adventure seekers often include Sohoton Cave in eco-tourism trips around Samar."
+            ],
+            "img-sets": [
+                "./img/visayas/sohotonimg/sohoton1.jpg",
+                "./img/visayas/sohotonimg/sohoton2.jpg",
+                "./img/visayas/sohotonimg/sohoton3.jpg",
+                "./img/visayas/sohotonimg/sohoton4.jpg"
+            ]
+        },
+
+        "sogod": { 
+            "img-main-hd": "./img/visayas/sogod.jpg",
+            "title": "Sogod Bay",
+            "location": "Municipalities of Sogod, Libagon, Liloan, San Francisco, Pintuyan, San Ricardo, and Padre Burgos, Southern Leyte",
+            "explore": {
+                "Aiport and Bus:": "Fly to Tacloban then travel south by bus",
+                "Ferry Terminal:": "Ferry to Southern Leyte ports",
+                "Private tour:": "Private vehicle via Maharlika Highway"
+            },
+            "recommended": "November to May",
+            "requirement": "Boat arrangements for tours, travel reservations and divinga nd snorkeling equipments",
+            "description": [
+                "Sogod Bay is a scenic bay known for whale shark sightings, diving spots, and marine biodiversity. The calm waters and coastal scenery attract both local and international tourists.",
+                "Marine tourism activities include snorkeling, scuba diving, and whale shark interaction tours. The bay is also surrounded by peaceful fishing communities and natural landscapes."
+            ],
+            "img-sets": [
+                "./img/visayas/sogodimg/sogod1.jpg",
+                "./img/visayas/sogodimg/sogod2.jpg",
+                "./img/visayas/sogodimg/sogod3.jpg",
+                "./img/visayas/sogodimg/sogod4.jpg"
             ]
         }
     },
@@ -607,6 +1015,263 @@
                 "./img/mindanao/hamiguitanimg/hamiguitan3.webp",
                 "./img/mindanao/hamiguitanimg/hamiguitan4.jpeg"
             ]
+        },
+
+        "bucas": { 
+            "img-main-hd": "./img/mindanao/bucas.jpg",
+            "title": "Bucas Grande",
+            "location": "Municipality of Socorro, Surigao del Norte",
+            "explore": {
+                "Ferry Terminal:": "Ferry from Surigao City to Socorro town.",
+                "Tour guide:": "Organized island-hopping tours"
+            },
+            "recommended": "March to June",
+            "requirement": "Boat arrangements for tours, travel reservations and divinga nd snorkeling equipments",
+            "description": [
+                "Bucas Grande is famous for Sohoton Cove, lagoons, caves, and jellyfish sanctuaries. The island is one of the top eco-tourism attractions in Surigao del Norte.",
+                "Its crystal-clear waters and limestone formations create breathtaking scenery for kayaking and island exploration. Visitors enjoy the peaceful atmosphere and unique natural attractions."
+            ],
+            "img-sets": [
+                "./img/mindanao/bucasimg/bucas1.jpg",
+                "./img/mindanao/bucasimg/bucas2.jpg",
+                "./img/mindanao/bucasimg/bucas3.jpg",
+                "./img/mindanao/bucasimg/bucas4.jpg"
+            ]
+        },
+
+        "musuan": { 
+            "img-main-hd": "./img/mindanao/musuan.jpg",
+            "title": "Musuan Peak",
+            "location": "Barangay Dologon, Maramag, Bukidnon",
+            "explore": {
+                "Bus:": "Bus route from Davao City to Maramag",
+                "Private tour:": "Private vehicle through Bukidnon highways"
+            },
+            "recommended": "December to May",
+            "requirement": "Hiking gear and professional local tourist guide needed for journey",
+            "description": [
+                "Musuan Peak is a dormant volcano with a short but rewarding hiking trail. It offers panoramic views of Bukidnon’s plains and mountain ranges.",
+                "The peak is also home to rich grasslands and educational research areas because of its proximity to Central Mindanao University. Sunrise hikes are especially popular among visitors."
+            ],
+            "img-sets": [
+                "./img/mindanao/musuanimg/musuan1.jpg",
+                "./img/mindanao/musuanimg/musuan2.jpg",
+                "./img/mindanao/musuanimg/musuan3.jpg",
+                "./img/mindanao/musuanimg/musuan4.jpg"
+            ]
+        },
+
+        "once": { 
+            "img-main-hd": "./img/mindanao/once.jpg",
+            "title": "Once Islas",
+            "location": "Barangay Panubigan, Zamboanga City",
+            "explore": {
+                "Transportation:": "Public transport from downtown Davao to jump-off port",
+                "Private tour:": "Private vehicle and boat tour package"
+            },
+            "recommended": "March to May",
+            "requirement": "Boat fare and environmental fee and snorkeling gear",
+            "description": [
+                "Once Islas is a protected group of islands in Davao Gulf known for coral reefs, mangroves, and white sand beaches. It is a growing eco-tourism destination in Mindanao.",
+                "Visitors can enjoy snorkeling, swimming, kayaking, and island hopping. The area promotes marine conservation while offering relaxing coastal scenery."
+            ],
+            "img-sets": [
+                "./img/mindanao/onceimg/once1.jpg",
+                "./img/mindanao/onceimg/once2.jpg",
+                "./img/mindanao/onceimg/once3.jpg",
+                "./img/mindanao/onceimg/once4.jpg"
+            ]
+        },
+
+        "matutum": { 
+            "img-main-hd": "./img/mindanao/matutum.jpg",
+            "title": "Mount Matutum",
+            "location": "Municipalities of Polomolok and Tupi, South Cotabato",
+            "explore": {
+                "Airport:": "Fly to General Santos City then travel to Polomolok",
+                "Transportation:": "Bus from Davao City to South Cotabato or private vehicle through Mindanao highways"
+            },
+            "recommended": "January to May",
+            "requirement": "Hiking permit, local guide, trekking gear and trekking and camping gear is necessary required",
+            "description": [
+                "Mount Matutum is an active stratovolcano recognized for its cone-shaped summit and rich biodiversity. The mountain is home to forests, wildlife, and scenic landscapes.",
+                "Hikers are rewarded with panoramic views of South Cotabato and nearby provinces. The trek also provides opportunities to encounter rare birds and unique plant species."
+            ],
+            "img-sets": [
+                "./img/mindanao/matutumimg/matutum1.jpg",
+                "./img/mindanao/matutumimg/matutum2.jpg",
+                "./img/mindanao/matutumimg/matutum3.jpg",
+                "./img/mindanao/matutumimg/matutum4.jpg"
+            ]
+        },
+
+        "monfort": { 
+            "img-main-hd": "./img/mindanao/monfort.jpg",
+            "title": "Monfort Bat Sanctuary",
+            "location": "Barangay Tambo, Babak District, Island Garden City of Samal, Davao Del Norte",
+            "explore": {
+                "Ferry Terminal:": "Ferry to Samal Island or Public boat from Sasa Wharf to Samal",
+                "Tour guide:": "Island tour packages around Samal"
+            },
+            "recommended": "November to February",
+            "requirement": "Entrance fee, face mask for sensitive visitors and local tour guide and having camera for your photography",
+            "description": [
+                "Monfort Bat Sanctuary is home to millions of Geoffroy’s rousette fruit bats and is recognized as one of the world’s largest bat colonies. The sanctuary promotes wildlife protection and environmental awareness.",
+                "Visitors can observe bats in their natural habitat and learn about their ecological importance. The sanctuary also contributes to conservation and eco-tourism in Samal Island."
+            ],
+            "img-sets": [
+                "./img/mindanao/monfortimg/monfort1.jpg",
+                "./img/mindanao/monfortimg/monfort2.jpg",
+                "./img/mindanao/monfortimg/monfort3.jpg",
+                "./img/mindanao/monfortimg/monfort4.jpg"
+            ]
+        },
+
+        "mapawa": { 
+            "img-main-hd": "./img/mindanao/mapawa.jpg",
+            "title": "Mapawa Nature Park",
+            "location": "Barangay Cugman, Cagayan de Oro City, Misamis Orriental",
+            "explore": {
+                "Airport and Van:": "Fly to Cagayan de Oro then travel by van or taxi",
+                "Transportation:": "Public transport from downtown CDO to Cugman or private vehicle through mountain roads"
+            },
+            "recommended": "December to May",
+            "requirement": "Entrance fee, hiking gear and extra clothes for water activity",
+            "description": [
+                "Mapawa Nature Park is an outdoor adventure destination featuring waterfalls, horseback riding, hiking trails, and river activities. The park combines recreation with natural scenery.",
+                "Adventure seekers enjoy trekking, camping, ziplining, and ATV rides in the area. The park’s waterfalls and green landscapes make it a refreshing getaway near the city."
+            ],
+            "img-sets": [
+                "./img/mindanao/mapawaimg/mapawa1.jpg",
+                "./img/mindanao/mapawaimg/mapawa2.jpg",
+                "./img/mindanao/mapawaimg/mapawa3.jpg",
+                "./img/mindanao/mapawaimg/mapawa4.jpg"
+            ]
+        },
+
+        "panimahawa": { 
+            "img-main-hd": "./img/mindanao/panimahawa.jpg",
+            "title": "Panimahawa Ridge",
+            "location": "Barangay Impalutao, Impasug-ong, Bukidnon",
+            "explore": {
+                "Aiport and Bus:": "Fly to Cagayan de Oro then bus to Impasug-ong",
+                "Transportation:": "Private vehicle via Bukidnon highways or motorcycle route through mountain roads"
+            },
+            "recommended": "November to February",
+            "requirement": "Hiking gear and professional local tourist guide needed for journey",
+            "description": [
+                "Panimahawa Ridge is known for its rolling hills, sea of clouds, and cool mountain climate. The ridge offers scenic camping experiences and panoramic views of Bukidnon.",
+                "Travelers often visit for sunrise hikes and overnight camping. The peaceful atmosphere and dramatic landscapes make it one of the region’s hidden gems."
+            ],
+            "img-sets": [
+                "./img/mindanao/panimahawaimg/panimahawa1.jpg",
+                "./img/mindanao/panimahawaimg/panimahawa2.jpg",
+                "./img/mindanao/panimahawaimg/panimahawa3.jpg",
+                "./img/mindanao/panimahawaimg/panimahawa4.jpg"
+            ]
+        },
+
+        "gumasa": { 
+            "img-main-hd": "./img/mindanao/gumasa.jpg",
+            "title": "Gumasa Beach",
+            "location": "Barangay Gumasa, Glan, Sarangani",
+            "explore": {
+                "Airport and Van:": "Fly to General Santos City then van to Glan",
+                "Bus:": "Bus route from Davao to Sarangani",
+                "Private route:": "Private vehicle along coastal highways"
+            },
+            "recommended": "March to May",
+            "requirement": "Reservation for resorts or cottages, Local ID and Beach essentials ",
+            "description": [
+                "Description: Gumasa Beach is famous for its white sand shoreline and clear waters, often compared to Boracay because of its beauty. The beach is a major attraction in Sarangani Province.",
+                "Visitors enjoy swimming, beach camping, volleyball, and local festivals such as Sarangani Bay Festival. The peaceful coastal environment makes it ideal for relaxation and recreation."
+            ],
+            "img-sets": [
+                "./img/mindanao/gumasaimg/gumasa1.jpg",
+                "./img/mindanao/gumasaimg/gumasa2.jpg",
+                "./img/mindanao/gumasaimg/gumasa3.jpg",
+                "./img/mindanao/gumasaimg/gumasa4.jpg"
+            ]
+        },
+
+        "maria": { 
+            "img-main-hd": "./img/mindanao/maria.jpg",
+            "title": "Maria Cristina Falls",
+            "location": "Barangay Maria Cristina, Iligan City, Lanao del Norte",
+            "explore": {
+                "Direct Flight:": "Fly to Cagayan de Oro then travel to Iligan City",
+                "Bus:": "Bus from Davao or Bukidnon to Iligan",
+                "Private tour:": "Private vehicle through Northern Mindanao highways"
+            },
+            "recommended": "December to May",
+            "requirement": "Entrance fee, food and water supplies and swimming materials",
+            "description": [
+                "Maria Cristina Falls is one of the most famous waterfalls in the Philippines and is known as the “Twin Falls” because a rock divides the water flow. The falls also power a major hydroelectric plant in Mindanao.",
+                "The powerful cascading waters and surrounding forest scenery attract tourists and photographers. Viewing decks allow visitors to safely admire the falls while learning about its role in energy production."
+            ],
+            "img-sets": [
+                "./img/mindanao/mariaimg/maria1.jpg",
+                "./img/mindanao/mariaimg/maria2.jpg",
+                "./img/mindanao/mariaimg/maria3.jpg",
+                "./img/mindanao/mariaimg/maria4.jpg"
+            ]
         }
-    }
+    },
+
+    "locationLists": [
+        "Apao Rolling Hills",
+        "Apo Island",
+        "Balite Falls",
+        "Banaue Rice Terraces",
+        "Boracay",
+        "Bucari Pine Forest",
+        "Bukas Grande",
+        "Calaguas Island",
+        "Carbin Reef",
+        "Chocolate Hills",
+        "Coron",
+        "Cuatro Islas",
+        "Danjugon Sanctuary",
+        "Gumasa Beach",
+        "Hinagdanan Cave",
+        "Hinatuan Enchanted River",
+        "Holon",
+        "Hundred Island",
+        "Kawasan Falls",
+        "Kalanggaman Island",
+        "Lake Sebu",
+        "Malumpati Cold Spring",
+        "Mambucal Hot Springs",
+        "Manjuyod Sandbar",
+        "Maniwaya Island",
+        "Mapawa National Park",
+        "Maria Cristina Falls",
+        "Minalungao National Park",
+        "Momfort Bat Sanctuary",
+        "Mount Apo",
+        "Mount Banahaw",
+        "Mount Hamiguitan",
+        "Mount Isarog",
+        "Mount Luho",
+        "Mount Mayon",
+        "Mount Matutum",
+        "Mount Pinatubo",
+        "Mount Pulag",
+        "Musuan Peak",
+        "Once Islas",
+        "Osmeña Peak",
+        "Pagsanjan Falls",
+        "Panimahawa Ridge",
+        "Pink Sand Beach",
+        "Pitogo Cliff",
+        "Sabtang Island",
+        "Siargao",
+        "Sohoton Cave",
+        "Sogod Bay",
+        "Taal Lake",
+        "Ticao Island",
+        "Tinuy-an Falls",
+        "Tubbataha Reefs",
+        "White Island"
+    ]
 }

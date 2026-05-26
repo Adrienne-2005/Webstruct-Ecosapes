@@ -62,11 +62,9 @@
                 </div>
             </div>
 
-            <!-- Dark overlay behind homeDesc -->
             <div class="homeDesc-overlay" id="homeDescOverlay" style="display: none;"></div>
 
             <div class="homeDesc" id="homeDesc" style="display: none;">
-                <!-- Close button fixed top-right of screen -->
 
                 <div class="homeDesc-content">
                     <div class="closeButtonHome">
@@ -102,7 +100,11 @@
 
             <div class="right">
                 <div class="search-bar">
-                    <input type="text" placeholder=" 🔍   Choose a destination..."></li>
+                    <input id="searchBar" onkeyup="searchFilter()" type="text" placeholder=" 🔍   Choose a destination..."></li>
+                    <div class="allLocations" id="allLocations" style="display: none;">
+                        <ul id="locationLists">
+                        </ul>
+                    </div>
                 </div>
 
                 <div class="slides">
@@ -133,30 +135,31 @@
                         </div>
 
                         <!--LOOP-->
+                        <div class="cloneCard">
+                            <div class="siargao">
+                                <img src="./img/slides/siargao.jpg">
+                                <h3>Siargao <br> Island</h3>
+                            </div>
 
-                        <div class="siargao">
-                            <img src="./img/slides/siargao.jpg">
-                            <h3>Siargao <br> Island</h3>
-                        </div>
+                            <div class="mayon">
+                                <img src="./img/slides/mayon.jpg">
+                                <h3>Mount <br> Mayon</h3>
+                            </div>
 
-                        <div class="mayon">
-                            <img src="./img/slides/mayon.jpg">
-                            <h3>Mount <br> Mayon</h3>
-                        </div>
+                            <div class="bora">
+                                <img src="./img/slides/boracay.jpg">
+                                <h3>Boracay <br> Island</h3>
+                            </div>
 
-                        <div class="bora">
-                            <img src="./img/slides/boracay.jpg">
-                            <h3>Boracay <br> Island</h3>
-                        </div>
+                            <div class="choco">
+                                <img src="./img/slides/chocolate-hills.jpg">
+                                <h3>Chocolate <br> Hills</h3>
+                            </div>
 
-                        <div class="choco">
-                            <img src="./img/slides/chocolate-hills.jpg">
-                            <h3>Chocolate <br> Hills</h3>
-                        </div>
-
-                        <div class="banaue">
-                            <img src="./img/slides/banaue.jpg">
-                            <h3>Banaue Rice<br>Terraces</h3>
+                            <div class="banaue">
+                                <img src="./img/slides/banaue.jpg">
+                                <h3>Banaue Rice<br>Terraces</h3>
+                            </div>
                         </div>
                     </div>
                 </div>
