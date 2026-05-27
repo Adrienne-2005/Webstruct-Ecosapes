@@ -1,18 +1,12 @@
-const loginForm = document.getElementsByClassName('form-input');
 const submitBtn = document.getElementById('submit-btn');
 
-submitBtn.addEventListener('click', function() {
+submitBtn.addEventListener('click', function(e) {
+    e.preventDefault();
     const textInt = document.getElementById('text');
     const passInt = document.getElementById('password');
 
-    if (textInt.value.trim() == "") {
-        return;
-    }
-    
-    if (passInt.value.trim() == "") {
-        return;
-    }
+    if (textInt.value.trim() == "" || passInt.value.trim() == "") return;
 
-    window.location.href = '/index.html';
-    alert("Sign in successful!");
+    alert("Sign in successful!"); 
+    window.location.href = './index.html'; 
 });

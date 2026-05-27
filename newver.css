@@ -713,11 +713,11 @@ body {
 }
 
 .mission {
-    margin: 0 10% 2rem 7%;
+    margin: 0 10% 2% 7%;
 }
 
 .vision {
-    margin: 0 10% 2rem 51%;
+    margin: 0 10% 2% 51%;
     position: relative;
 }
 
@@ -1374,19 +1374,11 @@ body {
     padding: 2rem 0;
 }
 
-.margin-phone {
-    bottom: 2.5rem;
-}
-
-.margin-tablet {
-    bottom: 2.5rem;
-}
-
 .destinations-container {
-    height: clamp(25.5rem, 0.229rem + 33.14vw, 40rem);
+    height: fit-content;
     background-color: #082933;
     border-radius: 40px;
-    padding: 1.75rem;
+    padding: clamp(1rem, 0.85rem + 0.75vw, 1.75rem);
 
     box-shadow: 0 8px 8px rgba(2, 22, 34, 0.29);
     backdrop-filter: blur(4.5px);
@@ -1399,6 +1391,10 @@ body {
     position: relative;
 
     transition: 0.3s ease-out;
+}
+
+.destinations-cards {
+    position: relative;
 }
 
 .destinations-cards img {
@@ -1415,9 +1411,9 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    width: 91%;
-    height: 92%;
-    transform: translate(0.8rem, 1.4rem);
+    width: 100%;
+    height: clamp(22rem, -2.4rem + 32vw, 36rem);
+    border-radius: 30px;
     background: linear-gradient(#ff7f5f00, #0728329f);
     z-index: 1;
 
@@ -1430,19 +1426,23 @@ body {
     z-index: 2; 
 }
 
-.card-fx h3 {
-    margin-top: -6rem;
-    font-size: clamp(1.5rem, -0.679rem + 2.86vw, 2.75rem);
+.card-fx {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 0 0.75rem clamp(0.75rem, 0.5rem + 0.5vw, 1.25rem);
+    z-index: 2;
+    box-sizing: border-box;
 }
 
-@media only screen and (min-width: 1501px) {
-    .card-fx h3 {
-        margin-top: -8rem;
-    }
-
-    .color-overlay {
-        width: 93%;
-    }
+.card-fx h3 {
+    white-space: normal;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    line-height: 1.25;
+    margin-top: 0;
+    font-size: clamp(1.5rem, -0.679rem + 2.86vw, 2.75rem);
 }
 
 .card-fx h4 {
@@ -1467,14 +1467,6 @@ body {
         grid-template-columns: repeat(2, 1fr);
     }
 
-    .tablet-only { /*break*/
-        display: none;
-    }
-
-    .margin-tablet {
-        bottom: 0;
-    }
-
     .ecoscapeslogo {
         display: none;
     }
@@ -1486,14 +1478,6 @@ body {
         grid-template-columns: 1fr;
     }
 
-    .mobile-only {
-        display: none;
-    }
-
-    .margin-phone {
-        bottom: 0;
-    }
-
     .ham-icon {
         display: inline-flex;
     }
@@ -1502,9 +1486,6 @@ body {
         display: none;
     }
 
-    .color-overlay {
-        width: 94%;
-    }
 }
 
 @media only screen and (max-width: 425px) {
@@ -1514,10 +1495,6 @@ body {
 
     .ecoscapes p {
         display: none;
-    }
-
-    .color-overlay {
-        width: 90%;
     }
 }
 
