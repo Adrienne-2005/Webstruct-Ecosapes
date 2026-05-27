@@ -100,6 +100,7 @@ const closeButton = popupContainer.getElementsByClassName('closeButton')[0];
 closeButton.addEventListener('click', function() {
     popupContainer.style.display = 'none';
     document.body.style.overflow = 'scroll';
+    
     const url = new URL(window.location);
     url.searchParams.delete('location');
     window.history.replaceState({}, '', url);

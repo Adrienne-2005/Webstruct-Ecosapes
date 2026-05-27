@@ -128,7 +128,7 @@ function navigateToLocation(locationName) {
     return true;
 }
 
-// ─── Search bar logic ────────────────────────────────────────────────────────
+
 const allLocations = document.getElementById('allLocations');
 const locationListsEl = document.getElementById('locationLists');
 const searchBar = document.getElementById('searchBar');
@@ -176,7 +176,6 @@ function updateLocationList(filter = '') {
     });
 }
 
-// Also allow pressing Enter in the search bar to navigate to exact match
 if (searchBar) {
     searchBar.addEventListener('keydown', function(e) {
         if (e.key === 'Enter') {

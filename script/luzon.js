@@ -6,7 +6,7 @@ async function fetchJSON(filename) {
     const response = await fetch(filename);
     const result = await response.json();
     jsonData = result;
-    // After JSON loads, check if a location was requested via URL param
+
     autoOpenFromURL();
 }
 fetchJSON("./newver.json");
@@ -76,17 +76,16 @@ function openPopup(place) {
         imgSetElement.appendChild(img);
     }
 
-    // Scroll popup into view smoothly
     popupContainer.scrollTop = 0;
 }
 
-// Auto-open popup if ?location=key is in the URL
+
 function autoOpenFromURL() {
     const params = new URLSearchParams(window.location.search);
     const locationKey = params.get('location');
     if (locationKey && jsonData && jsonData["luzon"] && jsonData["luzon"][locationKey]) {
         openPopup(locationKey);
-        // Also highlight the matching card if visible
+
         const card = document.getElementById(locationKey);
         if (card) card.scrollIntoView({ behavior: 'smooth', block: 'center' });
     }
@@ -104,7 +103,7 @@ const closeButton = popupContainer.getElementsByClassName('closeButton')[0];
 closeButton.addEventListener('click', function() {
     popupContainer.style.display = 'none';
     document.body.style.overflow = 'scroll';
-    // Clean up URL param without reloading
+
     const url = new URL(window.location);
     url.searchParams.delete('location');
     window.history.replaceState({}, '', url);
