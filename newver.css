@@ -172,8 +172,6 @@ body {
     color:black;
 }
 
-/* Start your adventure*/
-
 .homeDesc-overlay {
     position: fixed;
     top: 0;
@@ -198,7 +196,6 @@ body {
     overflow-y: auto;
 }
 
-/* homeDesc-content sits above the overlay */
 .homeDesc-content {
     position: relative;
     z-index: 100;
@@ -214,7 +211,6 @@ body {
     box-sizing: border-box;
 }
 
-/* Close button pinned to top-right of screen */
 .closeButtonHome {
     position: fixed;
     top: 1.5rem;
@@ -247,7 +243,6 @@ body {
     transform: scale(1.1);
 }
 
-/* .pickHome mirrors .pick layout */
 .pickHome {
     margin: 6%;
 }
@@ -263,7 +258,6 @@ body {
     color: #8ea7bc;
 }
 
-/* .main-cardHome mirrors .main-card layout */
 .main-cardHome {
     display: flex;
     flex-direction: column;
@@ -890,7 +884,6 @@ body {
     width: 100%;
     padding-left: clamp(2rem, 6vw, 7rem);
     padding-right: clamp(2rem, 6vw, 7rem);
-    box-sizing: border-box;
 }
 
 @media only screen and (min-width: 769px) {
@@ -900,8 +893,6 @@ body {
         align-items: stretch;
     }
 }
-
-
 
 .luzon,
 .visayas,
@@ -1039,7 +1030,6 @@ body {
     justify-content: center;
     align-items: flex-start;
     gap: 10%;
-    /*flex-wrap: wrap;*/
 }
 
 .tel,
