@@ -175,17 +175,16 @@ function updateLocationList(filter = '') {
     });
 }
 
-if (searchBar) {
+    if (searchBar) {
     searchBar.addEventListener('keydown', function(e) {
-        if (e.key === 'Enter') {
+        if (e.key == 'Enter') {
             const val = searchBar.value.trim();
-            // Try exact match first, then case-insensitive
             if (locationMap[val]) {
                 navigateToLocation(val);
             } else {
-                const found = Object.keys(locationMap).find(
-                    k => k.toLowerCase() === val.toLowerCase()
-                );
+                const found = Object.keys(locationMap).find(function(k) {
+                    return k.toLowerCase() == val.toLowerCase();
+                });
                 if (found) navigateToLocation(found);
             }
         }
