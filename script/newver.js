@@ -120,7 +120,6 @@ const locationMap = {
     "Maria Cristina Falls":      { region: "mindanao", key: "maria" }
 };
 
-// Navigate to the correct region page and pass location key as URL param
 function navigateToLocation(locationName) {
     const info = locationMap[locationName];
     if (!info) return false;

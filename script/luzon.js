@@ -48,7 +48,7 @@ function openPopup(place) {
     }
 
     const recommended = placeData["recommended"];
-    const recommendedElement = popupContainer.getElementsByClassName("recommended")[0];
+    const recommendedElement = popupContainer.getElementsByClassName("recommended")[0];$
     recommendedElement.textContent = recommended;
 
     const requirement = placeData["requirement"];
